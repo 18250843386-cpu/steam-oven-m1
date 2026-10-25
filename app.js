@@ -78,17 +78,72 @@ function renderPatent(){
  $('#zoom-patent').addEventListener('click',()=>{const dialog=$('#patent-dialog');$('#dialog-title').textContent=`${p.brand} · ${p.no} · ${p.fig}`;$('#dialog-img').src=`assets/${p.no}.png`;$('#dialog-img').alt=p.fig;dialog.showModal();});
 }
 
-function renderPaths(){ $('#path-visual').innerHTML=`<img src="assets/m1-side.svg?v=6" alt="M1纵剖：后回风、前排水、三层门体和独立排汽湿管"><div class="path-readable"><span>供汽：净水盒 / 外置发生器 / 双侧入口</span><span>湿汽：调节阀 / 间壁冷凝 / 分离 / 末端出口</span><span>干风：独立风机 / 空气侧换热 / 末端混合</span><span>凝水：门槽与坡底 / 粗滤 / 废水盒</span></div>`; }
+const modeVisuals={
+ steam:{steam:'active',heat:'low',exhaust:'low',drain:'active',valve:55,label:'供汽保湿',hint:'蓝色供汽路径开启，热源按腔温补偿；保留常通排放。',valveText:'保湿调节',states:['按任务供汽','腔温补偿','正常排放','收集凝水']},
+ transition:{steam:'off',heat:'low',exhaust:'active',drain:'active',valve:0,label:'排湿转段',hint:'停止补汽，开启受控排湿；冷凝液进入独立废水盒。',valveText:'转段开启',states:['停止补汽','转段调节','受控开启','冷凝回收']},
+ bake:{steam:'off',heat:'active',exhaust:'demand',drain:'low',valve:30,label:'热风烘烤',hint:'橙色循环热风增强，排汽按湿度反馈调节。',valveText:'按需调节',states:['停止供汽','循环加热','按需调节','余水收集']},
+ serve:{steam:'off',heat:'off',exhaust:'active',drain:'active',valve:0,label:'取餐前排汽',hint:'停止加热，低速循环辅助余汽排出，再提示开门取餐。',valveText:'排汽开启',states:['停止供汽','停止加热','排出余汽','收集余水']}
+};
+function renderPaths(){
+ $('#path-visual').innerHTML=`<div class="mode-banner"><span class="mode-badge" id="mode-badge"></span><p id="mode-hint"></p></div>
+ <svg class="mode-diagram" viewBox="0 0 960 590" role="img" aria-labelledby="mode-diagram-title mode-diagram-desc">
+ <title id="mode-diagram-title">M1 蒸制路径示意</title><desc id="mode-diagram-desc"></desc>
+ <defs><marker id="mode-arrow-steam" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#428fab"/></marker><marker id="mode-arrow-heat" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#c67743"/></marker><marker id="mode-arrow-exhaust" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#477969"/></marker></defs>
+ <text x="145" y="55" class="mode-caption">M1 / 模式路径示意</text><text x="815" y="55" text-anchor="end" class="mode-caption">前门 ← 侧向剖面 → 后部</text>
+ <rect x="145" y="100" width="675" height="440" rx="16" fill="#e8eeea" stroke="#adbbb0" stroke-width="2"/>
+ <rect x="159" y="114" width="647" height="412" rx="10" fill="#f9fbf8" stroke="#d2dbd2"/>
+ <rect x="167" y="132" width="120" height="67" rx="7" fill="#e3eae1"/><text x="227" y="161" text-anchor="middle" class="mode-label">干侧控制区</text><text x="227" y="183" text-anchor="middle" class="mode-small">与湿路分隔</text>
+ <path d="M237 246Q470 171 702 246V448L237 462Z" fill="#f4f4eb" stroke="#819b8d" stroke-width="2.5"/>
+ <path class="mode-steam-cloud" d="M246 253Q470 183 692 253V437L246 450Z" fill="#b7dce3"/>
+ <path class="mode-heat-glow" d="M246 253Q470 183 692 253V437L246 450Z" fill="#f2b879"/>
+ <rect x="178" y="231" width="12" height="238" rx="3" fill="#bfd0d2" stroke="#749997"/><rect x="197" y="231" width="8" height="238" rx="2" fill="#d9e5df" stroke="#97b4ab"/><rect x="216" y="231" width="8" height="238" rx="2" fill="#e2ece9" stroke="#a1bcb4"/>
+ <text x="136" y="355" text-anchor="end" class="mode-label">三层门体</text><path d="M139 362H174" stroke="#95a99f"/>
+ <path d="M282 319H645M282 397H645" stroke="#a9b8aa" stroke-width="7" stroke-linecap="round"/>
+ <path d="M310 299Q323 283 336 299T362 299T388 299T414 299H468V313H307Z" fill="#e6b97b" stroke="#be9768"/><path d="M492 382Q512 352 533 382T574 382H624V391H492Z" fill="#c7ab87" stroke="#a58d73"/>
+ <text x="413" y="371" text-anchor="middle" class="mode-small">双层烤盘</text>
+ <circle cx="734" cy="345" r="49" fill="#f1e3cf" stroke="#caa67f" stroke-width="4" class="mode-heater"/>
+ <g class="mode-fan"><circle cx="734" cy="345" r="31" fill="#e0e9e1" stroke="#8fa79c"/><path d="M734 345Q703 313 728 319Q746 325 734 345Q769 318 761 342Q755 360 734 345Q762 377 738 371Q719 365 734 345Q700 371 707 347Q713 330 734 345" fill="#6c9387"/><circle cx="734" cy="345" r="6" fill="#f9fbf8"/></g>
+ <text x="734" y="418" text-anchor="middle" class="mode-small">环形热源 / 风机</text>
+ <rect x="440" y="133" width="132" height="52" rx="7" fill="#e5eee9" stroke="#9bb2a5"/><path d="M457 141V177M476 141V177M495 141V177M514 141V177M533 141V177M552 141V177" stroke="#a9c1b6" stroke-width="2"/>
+ <text x="506" y="211" text-anchor="middle" class="mode-label">间壁冷凝</text>
+ <rect x="327" y="138" width="34" height="47" rx="7" fill="#e0eae4" stroke="#9bb2a5"/><text x="344" y="211" text-anchor="middle" class="mode-small">气液分离</text>
+ <path d="M750 244V159H572M440 159H362M327 159H308V84H260" class="mode-pipe mode-exhaust-base"/>
+ <path d="M750 242V115H308V84H260" class="mode-bypass" marker-end="url(#mode-arrow-exhaust)"/><text x="548" y="95" text-anchor="middle" class="mode-small">常通旁路 · 保留正常排放</text>
+ <path d="M750 237V159H572M440 159H362M327 159H308V84H260" class="mode-flow mode-exhaust" data-flow="exhaust" marker-end="url(#mode-arrow-exhaust)"/>
+ <circle cx="649" cy="159" r="18" fill="#f9fbf8" stroke="#648c79" stroke-width="2"/><path id="mode-valve" d="M635 159H663" stroke="#3d715e" stroke-width="5" stroke-linecap="round"/>
+ <text x="649" y="205" text-anchor="middle" class="mode-small" id="mode-valve-label"></text>
+ <path d="M810 128H784V68H310V84H290" fill="none" stroke="#a3bbaf" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#mode-arrow-exhaust)"/><text x="808" y="79" text-anchor="end" class="mode-small">冷却干风 → 末端汇合</text>
+ <text x="228" y="77" text-anchor="end" class="mode-label">前上方出口</text>
+ <rect x="248" y="485" width="128" height="39" rx="6" fill="#e2eff1" stroke="#99bdc5"/><text x="312" y="510" text-anchor="middle" class="mode-label">净水盒</text>
+ <rect x="430" y="485" width="128" height="39" rx="6" fill="#e4ece3" stroke="#a1b8a5"/><text x="494" y="510" text-anchor="middle" class="mode-label">废水盒</text>
+ <rect x="638" y="483" width="128" height="41" rx="6" fill="#e7eef0" stroke="#99b3bf"/><text x="702" y="509" text-anchor="middle" class="mode-label">外置发生器</text>
+ <path d="M376 506H414V533H620V506H638M702 482V437H669V408" class="mode-pipe mode-steam-base"/>
+ <path d="M376 506H414V533H620V506H638M702 482V437H669V408" class="mode-flow mode-steam" data-flow="steam" marker-end="url(#mode-arrow-steam)"/>
+ <path d="M659 421C628 395 659 364 633 339S647 288 616 260M550 426C521 403 548 377 520 350S537 296 505 268M405 423C378 399 408 371 379 344S395 292 366 269" class="mode-flow mode-steam mode-plumes" data-flow="steam" marker-end="url(#mode-arrow-steam)"/>
+ <path d="M706 305H661Q642 274 602 274H288M706 382H662Q650 430 601 430H289M291 350H679" class="mode-flow mode-heat" data-flow="heat" marker-end="url(#mode-arrow-heat)"/>
+ <path d="M696 450L252 464V475H494V485M344 185V223H230V475H494" class="mode-pipe mode-drain-base"/>
+ <path d="M696 450L252 464V475H494V485M344 185V223H230V475H494" class="mode-flow mode-drain" data-flow="drain" marker-end="url(#mode-arrow-exhaust)"/>
+ <text x="469" y="571" text-anchor="middle" class="mode-caption">蓝：供汽　橙：循环热风　绿：排汽 / 凝水　灰：未启用路径</text>
+ </svg>
+ <div class="mode-readings" aria-label="当前阶段部件状态">${['供汽','热源','排汽','凝水'].map((label,i)=>`<div><span class="mode-key mode-key-${i}"></span><span>${label}</span><b id="mode-state-${i}"></b></div>`).join('')}</div>
+ <div class="path-readable"><span>蒸汽：净水盒 → 外置发生器 → 炉腔入口</span><span>热风：后部回风 → 环形热源 → 双侧均压送风</span><span>排湿：调节阀 → 间壁冷凝 → 气液分离 → 末端出口</span><span>凝水：门槽、坡底与冷凝件 → 独立废水盒</span></div>`;
+}
 
 let currentPhase='steam';
 function setPhase(phase){
- currentPhase=phase;const p=phases[phase];$('#path-visual').dataset.phase=phase;
+ if(!phases[phase])return;
+ currentPhase=phase;const p=phases[phase],v=modeVisuals[phase];$('#path-visual').dataset.phase=phase;
+ $('#mode-badge').textContent=`${p.name} / ${v.label}`;$('#mode-hint').textContent=v.hint;
+ $('#mode-diagram-title').textContent=`M1 ${p.name}路径示意`;$('#mode-diagram-desc').textContent=v.hint;
+ $$('[data-flow]',$('#path-visual')).forEach(el=>{el.dataset.state=v[el.dataset.flow];});
+ $('#mode-valve').setAttribute('transform',`rotate(${v.valve} 649 159)`);$('#mode-valve-label').textContent=v.valveText;
+ v.states.forEach((s,i)=>{$(`#mode-state-${i}`).textContent=s;});
  const tab=$(`[data-phase="${phase}"]`,$('#phase-tabs'));selectInGroup($('#phase-tabs'),tab);
  $('#phase-detail').innerHTML=`<div class="phase-title"><h4>${p.title}</h4><span>${p.en}</span></div><p class="phase-description">${p.desc}</p><div class="phase-states">${p.states.map(s=>`<span>${s}</span>`).join('')}</div>`;
- if(uiStep===2)renderInterface();
+ renderInterface();
 }
 
-let uiStep=0, uiTask='蒸转烤', uiQuantity='2 人份', uiVessel='金属烤盘（仅蒸烤）', uiLayer='中层';
+let uiStep=0, uiTask='蒸', uiQuantity='2 人份', uiVessel='金属烤盘（仅蒸烤）', uiLayer='中层';
 function renderInterface(){
  const screen=$('#device-screen');
  const next=(text='下一步')=>`<button class="screen-next" data-ui="next">${text} →</button>`;
@@ -97,7 +152,7 @@ function renderInterface(){
  let inner=`<div class="screen-step">STEP 0${uiStep+1} / 05</div><h4>${heads[uiStep]}</h4>`;
  if(uiStep===0){inner+=`<div class="task-options">${['蒸','烤','蒸转烤'].map(t=>`<button data-task="${t}" class="${uiTask===t?'selected':''}" aria-pressed="${uiTask===t}"><span>${t}</span><small>${t==='蒸'?'保湿烹饪':t==='烤'?'热风烘烤':'分阶段完成'}</small></button>`).join('')}</div><div class="screen-actions">${next('确认任务')}</div>`;}
  if(uiStep===1){inner+=`<div class="screen-field"><label for="ui-quantity">份量</label><select id="ui-quantity">${['1 人份','2 人份','3–4 人份'].map(v=>`<option ${v===uiQuantity?'selected':''}>${v}</option>`).join('')}</select></div><div class="screen-field"><label for="ui-vessel">器皿</label><select id="ui-vessel">${['金属烤盘（仅蒸烤）','耐热玻璃（依手册）'].map(v=>`<option ${v===uiVessel?'selected':''}>${v}</option>`).join('')}</select></div><div class="screen-field"><label for="ui-layer">层位</label><select id="ui-layer">${['中层','上层','下层'].map(v=>`<option ${v===uiLayer?'selected':''}>${v}</option>`).join('')}</select></div><p class="screen-note">${uiTask} · 请确认水位、器皿耐温与放置间隙。确认后进入运行演示。</p><div class="screen-actions">${back}${next('开始演示')}</div>`;}
- if(uiStep===2){inner+=`<div class="screen-stage"><span class="pulse-dot"></span><span><b>${phases[uiTask==='蒸'?'steam':uiTask==='烤'?'bake':currentPhase].screen}</b><small>${uiTask} · ${uiQuantity} · ${uiLayer}</small></span></div><p>当前阶段、门状态与异常提示应清楚显示。食品温度与腔温分开显示，下一阶段以过程反馈判断。</p><div class="screen-actions">${next('演示进入取餐')}</div><button class="screen-stop" data-ui="stop">停止 / 返回任务</button>`;}
+ if(uiStep===2){const action=uiTask==='蒸转烤'&&currentPhase==='steam'?'演示开始排湿':uiTask==='蒸转烤'&&currentPhase==='transition'?'演示进入烘烤':'演示进入取餐';inner+=`<div class="screen-stage"><span class="pulse-dot"></span><span><b>${phases[currentPhase].screen}</b><small>${uiTask} · ${uiQuantity} · ${uiLayer}</small></span></div><p>左侧示意图同步显示当前路径。食品温度与腔温分开读取，实际转段由过程反馈决定。</p><div class="screen-actions">${next(action)}</div><button class="screen-stop" data-ui="stop">停止 / 返回任务</button>`;}
  if(uiStep===3){inner+=`<div class="screen-success">↗</div><p class="screen-note">取餐前应完成设计规定的排汽步骤。门体和器皿仍可能高温，请使用隔热手套。</p><p style="margin-top:12px">请缓慢开门，并避开前上方排汽口。</p><div class="screen-actions">${back}${next('查看维护')}</div>`;}
  if(uiStep===4){inner+=`<label class="screen-check"><input type="checkbox" id="water-done"> 倒空并复位接水盒</label><label class="screen-check"><input type="checkbox" id="wipe-done"> 按说明擦拭并干燥炉腔</label><p style="margin-top:10px">等待设备冷却后，再进行拆洗。</p><div class="screen-actions">${back}<button class="screen-next" data-ui="finish">完成本次任务 ✓</button></div>`;}
  screen.innerHTML=inner;
@@ -124,9 +179,29 @@ $('#product-grid').addEventListener('click',e=>{const b=e.target.closest('[data-
 $('#clear-compare').addEventListener('click',()=>{selectedProducts=[];renderProducts();});
 $('#patent-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-patent]');if(!b)return;patentIndex=+b.dataset.patent;renderPatent();});
 $$('[data-hero-view]').forEach(b=>b.addEventListener('click',()=>{selectInGroup(b.parentElement,b);$('#hero-oven').classList.toggle('shell-view',b.dataset.heroView==='shell');}));
-$('#phase-tabs').addEventListener('click',e=>{const b=e.target.closest('button[data-phase]');if(b)setPhase(b.dataset.phase);});
+$('#phase-tabs').addEventListener('click',e=>{const b=e.target.closest('button[data-phase]');if(!b)return;const phase=b.dataset.phase;if(uiStep<2&&phase!=='serve')uiTask=phase==='steam'?'蒸':phase==='bake'?'烤':'蒸转烤';setPhase(phase);});
 $('#toggle-labels').addEventListener('click',e=>{const hidden=$('#path-visual').classList.toggle('hide-labels');e.currentTarget.textContent=`路径说明 ${hidden?'关':'开'}`;e.currentTarget.setAttribute('aria-pressed',String(!hidden));});
-$('#device-screen').addEventListener('click',e=>{const task=e.target.closest('[data-task]');if(task){uiTask=task.dataset.task;renderInterface();return;}const b=e.target.closest('[data-ui]');if(!b)return;const act=b.dataset.ui;if(act==='next'){if(uiStep===1){uiQuantity=$('#ui-quantity').value;uiVessel=$('#ui-vessel').value;uiLayer=$('#ui-layer').value;setPhase(uiTask==='烤'?'bake':'steam');}uiStep=Math.min(4,uiStep+1);if(uiStep===3)setPhase('serve');}else if(act==='back')uiStep=Math.max(0,uiStep-1);else if(act==='stop'){uiStep=0;toast('演示已停止，可以重新选择任务。');}else if(act==='finish'){if(!$('#water-done').checked||!$('#wipe-done').checked){toast('请先确认接水盒与炉腔的维护步骤。');return;}uiStep=0;toast('本次交互演示完成。');}renderInterface();});
+$('#device-screen').addEventListener('click',e=>{
+ const task=e.target.closest('[data-task]');
+ if(task){uiTask=task.dataset.task;setPhase(uiTask==='蒸'?'steam':uiTask==='烤'?'bake':'transition');return;}
+ const b=e.target.closest('[data-ui]');if(!b)return;const act=b.dataset.ui;
+ if(act==='next'){
+  if(uiStep===1){uiQuantity=$('#ui-quantity').value;uiVessel=$('#ui-vessel').value;uiLayer=$('#ui-layer').value;setPhase(uiTask==='烤'?'bake':'steam');}
+  else if(uiStep===2&&uiTask==='蒸转烤'&&currentPhase==='steam'){setPhase('transition');return;}
+  else if(uiStep===2&&uiTask==='蒸转烤'&&currentPhase==='transition'){setPhase('bake');return;}
+  uiStep=Math.min(4,uiStep+1);if(uiStep===3)setPhase('serve');
+ }else if(act==='back'){
+  uiStep=Math.max(0,uiStep-1);
+  if(uiStep===2)setPhase(uiTask==='烤'||uiTask==='蒸转烤'?'bake':'steam');
+  if(uiStep===0)setPhase(uiTask==='蒸'?'steam':uiTask==='烤'?'bake':'transition');
+ }else if(act==='stop'){
+  uiStep=0;setPhase('serve');toast('演示已停止：供汽与加热关闭，示意余汽排放。');
+ }else if(act==='finish'){
+  if(!$('#water-done').checked||!$('#wipe-done').checked){toast('请先确认接水盒与炉腔的维护步骤。');return;}
+  uiStep=0;uiTask='蒸';setPhase('steam');toast('本次交互演示完成，已返回任务预览。');
+ }
+ renderInterface();
+});
 $('#source-filters').addEventListener('click',e=>{const b=e.target.closest('[data-type]');if(!b)return;sourceType=b.dataset.type;selectInGroup($('#source-filters'),b);renderReferences();});
 $('#source-search').addEventListener('input',e=>{sourceQuery=e.target.value.trim().toLowerCase();renderReferences();});
 $('#expand-sources').addEventListener('click',()=>{sourcesExpanded=!sourcesExpanded;renderReferences();});
