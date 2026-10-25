@@ -1,0 +1,478 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="845" height="501" viewBox="575 390 845 501"><rect width="2000" height="1414" fill="#fafcfc"/>
+<text x="55" y="53" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#428574" text-anchor="start">M1 / STEAM + CONVECTION</text>
+<text x="55" y="108" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="39" fill="#213b46" text-anchor="start">蒸烤一体机整机工程剖面</text>
+<text x="55" y="146" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#687d87" text-anchor="start">A-A 正面横剖：把热场、水汽、材料界面和感知闭环放进同一台机器。</text>
+<text x="1945" y="56" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#687d87" text-anchor="end">ENGINEERING CONCEPT / 01</text>
+<text x="1945" y="99" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="end">结构 · 材料 · 信息感知</text>
+<path d="M55 171L1945 171" fill="none" stroke="#213b46" stroke-width="1.5"/>
+<path d="M55 203 L100 203" fill="none" stroke="#c86c3e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M100 203 L92.0 199.16 L92.0 206.84 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="111" y="208" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">热风循环</text>
+<path d="M275 203 L320 203" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M320 203 L312.0 199.16 L312.0 206.84 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="331" y="208" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">湿汽实线 / 干风虚线</text>
+<path d="M575 203 L620 203" fill="none" stroke="#428574" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M620 203 L612.0 199.16 L612.0 206.84 Z" fill="#428574" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="631" y="208" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">冷凝与排水</text>
+<path d="M825 203 L870 203" fill="none" stroke="#79689a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M870 203 L862.0 199.16 L862.0 206.84 Z" fill="#79689a" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="881" y="208" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">传感 / 反馈</text>
+<text x="1945" y="208" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="end">设计输入：595 W × 560 D × 455 H mm · 最高烤温 250°C · 总输入功率上限 3.0 kW</text>
+<path d="M500 246L1500 246" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M500 238L500 254" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M1500 238L1500 254" fill="none" stroke="#687d87" stroke-width="1"/>
+<rect x="865.0" y="231" width="270" height="30" rx="0" fill="#fafcfc" stroke="none" stroke-width="1"/>
+<text x="1000.0" y="251" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="middle">整机面宽 595 mm</text>
+<rect x="500" y="271" width="1000" height="746" rx="11" fill="#e4eaed" stroke="#213b46" stroke-width="2.5"/>
+<rect x="511" y="282" width="978" height="724" rx="7" fill="#ffffff" stroke="#a9b8bf" stroke-width="1.2"/>
+<rect x="527" y="295" width="947" height="91" rx="5" fill="#edf2f4" stroke="#c5d0d4" stroke-width="1"/>
+<rect x="543" y="307" width="267" height="65" rx="4" fill="#e0e8e6" stroke="#b8c9c0" stroke-width="1"/>
+<text x="559" y="334" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="start">控制与电源冷端</text>
+<text x="559" y="359" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#687d87" text-anchor="start">湿汽回路与电路隔舱</text>
+<rect x="714" y="322" width="5" height="27" rx="0" fill="#a6bdb2" stroke="none" stroke-width="1"/>
+<rect x="725" y="322" width="5" height="27" rx="0" fill="#a6bdb2" stroke="none" stroke-width="1"/>
+<rect x="736" y="322" width="5" height="27" rx="0" fill="#a6bdb2" stroke="none" stroke-width="1"/>
+<rect x="747" y="322" width="5" height="27" rx="0" fill="#a6bdb2" stroke="none" stroke-width="1"/>
+<rect x="758" y="322" width="5" height="27" rx="0" fill="#a6bdb2" stroke="none" stroke-width="1"/>
+<rect x="769" y="322" width="5" height="27" rx="0" fill="#a6bdb2" stroke="none" stroke-width="1"/>
+<path d="M834 296L834 386" fill="none" stroke="#213b46" stroke-width="2"/>
+<rect x="934" y="303" width="382" height="71" rx="5" fill="#e2ebef" stroke="#8ca9b6" stroke-width="1.4"/>
+<path d="M946 311L946 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M961 311L961 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M976 311L976 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M991 311L991 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1006 311L1006 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1021 311L1021 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1036 311L1036 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1051 311L1051 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1066 311L1066 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1081 311L1081 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1096 311L1096 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1111 311L1111 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1126 311L1126 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1141 311L1141 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1156 311L1156 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1171 311L1171 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1186 311L1186 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1201 311L1201 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1216 311L1216 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1231 311L1231 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1246 311L1246 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1261 311L1261 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1276 311L1276 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M1291 311L1291 367" fill="none" stroke="#c1d1d8" stroke-width="1"/>
+<path d="M916 320 L1275 320 Q1290 320 1290 335 L1290 338 L948 338 Q932 338 932 349 L932 356 L1320 356" fill="none" stroke="#328caf" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1320" y="347" width="30" height="27" rx="3" fill="#d9e8ed" stroke="#328caf" stroke-width="1.2"/>
+<rect x="1380" y="305" width="92" height="69" rx="4" fill="#edf4f5" stroke="#8ba8b6" stroke-width="1.2"/>
+<path d="M1350 360 L1426 360" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1426 360 L1418.0 356.16 L1418.0 363.84 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="880" cy="347" r="23" fill="#d7e4e9" stroke="#8ba8b6" stroke-width="1.2"/>
+<path d="M880 347 Q902.8171466091497 359.4650640037093 887.0239299762858 357.93912280250265" fill="none" stroke="#87a4ae" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M880 347 Q867.5349359962908 369.8171466091497 869.0608771974973 354.02392997628584" fill="none" stroke="#87a4ae" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M880 347 Q857.1828533908503 334.5349359962907 872.9760700237142 336.06087719749735" fill="none" stroke="#87a4ae" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M880 347 Q892.4650640037092 324.1828533908503 890.9391228025027 339.97607002371416" fill="none" stroke="#87a4ae" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M850 347 L855 347" fill="none" stroke="#328caf" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<path d="M855 347 L850.0 344.6 L850.0 349.4 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M905 347 L924 347 L924 382 L1367 382 L1367 326 L1426 326" fill="none" stroke="#328caf" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<path d="M1426 326 L1418.0 322.16 L1418.0 329.84 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1472 339 L1520 339" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1520 339 L1511.0 334.68 L1511.0 343.32 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1115" y="292" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="middle">间壁冷凝件（湿管 / 空气侧分隔）</text>
+<text x="880" y="299" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#687d87" text-anchor="middle">干侧风机</text>
+<text x="1426" y="292" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#687d87" text-anchor="middle">末端混合</text>
+<path d="M548 909 L548 471 Q1000 287 1452 471 L1452 909 Z" fill="#ede5d7" stroke="#bcac90" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M557 486L571 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 510L571 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 534L571 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 558L571 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 582L571 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 606L571 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 630L571 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 654L571 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 678L571 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 702L571 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 726L571 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 750L571 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 774L571 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 798L571 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 822L571 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 846L571 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 870L571 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M557 894L571 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 486L580 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 510L580 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 534L580 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 558L580 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 582L580 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 606L580 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 630L580 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 654L580 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 678L580 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 702L580 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 726L580 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 750L580 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 774L580 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 798L580 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 822L580 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 846L580 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 870L580 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M566 894L580 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 486L589 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 510L589 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 534L589 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 558L589 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 582L589 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 606L589 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 630L589 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 654L589 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 678L589 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 702L589 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 726L589 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 750L589 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 774L589 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 798L589 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 822L589 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 846L589 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 870L589 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M575 894L589 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 486L598 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 510L598 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 534L598 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 558L598 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 582L598 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 606L598 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 630L598 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 654L598 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 678L598 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 702L598 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 726L598 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 750L598 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 774L598 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 798L598 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 822L598 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 846L598 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 870L598 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M584 894L598 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 486L1429 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 510L1429 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 534L1429 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 558L1429 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 582L1429 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 606L1429 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 630L1429 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 654L1429 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 678L1429 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 702L1429 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 726L1429 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 750L1429 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 774L1429 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 798L1429 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 822L1429 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 846L1429 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 870L1429 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1415 894L1429 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 486L1438 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 510L1438 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 534L1438 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 558L1438 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 582L1438 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 606L1438 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 630L1438 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 654L1438 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 678L1438 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 702L1438 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 726L1438 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 750L1438 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 774L1438 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 798L1438 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 822L1438 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 846L1438 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 870L1438 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1424 894L1438 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 486L1447 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 510L1447 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 534L1447 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 558L1447 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 582L1447 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 606L1447 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 630L1447 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 654L1447 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 678L1447 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 702L1447 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 726L1447 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 750L1447 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 774L1447 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 798L1447 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 822L1447 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 846L1447 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 870L1447 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1433 894L1447 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 486L1456 472" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 510L1456 496" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 534L1456 520" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 558L1456 544" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 582L1456 568" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 606L1456 592" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 630L1456 616" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 654L1456 640" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 678L1456 664" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 702L1456 688" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 726L1456 712" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 750L1456 736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 774L1456 760" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 798L1456 784" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 822L1456 808" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 846L1456 832" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 870L1456 856" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1442 894L1456 880" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M594 458.2271908528467L609 473.2271908528467" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M620 449.0246691205262L635 464.0246691205262" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M646 440.4309656198606L661 455.4309656198606" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M672 432.4460803508498L687 447.4460803508498" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M698 425.0700133134937L713 440.0700133134937" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M724 418.30276450779235L739 433.30276450779235" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M750 412.1443339337459L765 427.1443339337459" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M776 406.594721591354L791 421.594721591354" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M802 401.6539274806172L817 416.6539274806172" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M828 397.3219516015349L843 412.3219516015349" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M854 393.59879395410763L869 408.59879395410763" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M880 390.48445453833506L895 405.48445453833506" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M906 387.97893335421725L921 402.97893335421725" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M932 386.08223040175426L947 401.08223040175426" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M958 384.7943456809461L973 399.7943456809461" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M984 384.11527919179264L999 399.11527919179264" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1010 384.045030934294L1025 399.045030934294" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1036 384.58360090845014L1051 399.58360090845014" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1062 385.7309891142611L1077 400.7309891142611" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1088 387.48719555172687L1103 402.48719555172687" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1114 389.85222022084736L1129 404.85222022084736" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1140 392.8260631216227L1155 407.8260631216227" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1166 396.4087242540528L1181 411.4087242540528" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1192 400.60020361813764L1207 415.60020361813764" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1218 405.4005012138774L1233 420.4005012138774" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1244 410.80961704127185L1259 425.80961704127185" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1270 416.8275511003211L1285 431.8275511003211" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1296 423.4543033910252L1311 438.4543033910252" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1322 430.68987391338396L1337 445.68987391338396" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1348 438.5342626673976L1363 453.5342626673976" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1374 446.987469653066L1389 461.987469653066" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M1400 456.04949487038925L1415 471.04949487038925" fill="none" stroke="#c9bda8" stroke-width="1"/>
+<path d="M582 887 L582 482 Q1000 330 1418 482 L1418 887 Z" fill="#d3dce0" stroke="#8199a5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 872 L610 494 Q1000 361 1390 494 L1390 872 Z" fill="#f7fafb" stroke="#8a9eaa" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M617 492 Q1000 365 1383 492" fill="none" stroke="#9fb1bc" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M610 504 L627 504 L627 519 L610 519" fill="#cdded8" stroke="#428574" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1390 504 L1373 504 L1373 519 L1390 519" fill="#cdded8" stroke="#428574" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="586" y="521" width="29" height="339" rx="0" fill="#f0ddce" stroke="none" stroke-width="1"/>
+<rect x="1385" y="521" width="29" height="339" rx="0" fill="#f0ddce" stroke="none" stroke-width="1"/>
+<rect x="613" y="536" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="536" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="558" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="558" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="580" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="580" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="602" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="602" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="624" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="624" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="646" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="646" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="668" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="668" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="690" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="690" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="712" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="712" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="734" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="734" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="756" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="756" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="778" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="778" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="800" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="800" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="822" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="822" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="613" y="844" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<rect x="1379" y="844" width="8" height="11" rx="2" fill="#ffffff" stroke="#8fa1aa" stroke-width="1"/>
+<path d="M600 539 L600 825" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M600 825 L604.8 815.0 L595.2 815.0 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1400 539 L1400 825" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1400 825 L1404.8 815.0 L1395.2 815.0 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M621 550 L752 550" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M752 550 L741.0 544.72 L741.0 555.28 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1378 550 L1247 550" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1247 550 L1258.0 555.28 L1258.0 544.72 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M621 666 L752 666" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M752 666 L741.0 660.72 L741.0 671.28 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1378 666 L1247 666" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1247 666 L1258.0 671.28 L1258.0 660.72 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M621 783 L752 783" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M752 783 L741.0 777.72 L741.0 788.28 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1378 783 L1247 783" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1247 783 L1258.0 788.28 L1258.0 777.72 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1000" cy="615" r="101" fill="none" stroke="#b6c5cc" stroke-width="1.4" stroke-dasharray="7 7"/>
+<circle cx="1000" cy="615" r="79" fill="#eef3f5" stroke="#c8d4da" stroke-width="1.2" stroke-dasharray="5 6"/>
+<circle cx="1000" cy="615" r="115" fill="none" stroke="#dbac8d" stroke-width="2" stroke-dasharray="10 9"/>
+<path d="M1000 615 Q1080.7860533048745 644.4892114411688 1037.622162304747 653.7372289085743" fill="none" stroke="#bbcbd1" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1000 615 Q1014.8546204068144 699.7073801540896 985.2636568453353 666.9503627554992" fill="none" stroke="#bbcbd1" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1000 615 Q934.0685671019398 670.2181687129208 947.6414945405883 628.2131338469251" fill="none" stroke="#bbcbd1" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1000 615 Q919.2139466951254 585.5107885588312 962.3778376952531 576.2627710914257" fill="none" stroke="#bbcbd1" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1000 615 Q985.1453795931856 530.2926198459104 1014.7363431546647 563.0496372445007" fill="none" stroke="#bbcbd1" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1000 615 Q1065.9314328980602 559.7818312870792 1052.3585054594116 601.7868661530749" fill="none" stroke="#bbcbd1" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1000" cy="615" r="13" fill="#a9bec7" stroke="none" stroke-width="1"/>
+<text x="1000" y="743" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#8b9da5" text-anchor="middle">后部回风 / 环形加热投影</text>
+<path d="M754 472 L809 461 L864 452 L919 446 L946 444" fill="none" stroke="#c86c3e" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1084 447 L1139 455 L1194 466 L1249 480" fill="none" stroke="#c86c3e" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="727" y="885" width="545" height="7" rx="3" fill="#d6a384" stroke="none" stroke-width="1"/>
+<rect x="646" y="673" width="708" height="11" rx="3" fill="#cbd6dc" stroke="#7f96a2" stroke-width="1.4"/>
+<path d="M649 687 L1350 687" fill="none" stroke="#aabcc7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="626" y="668" width="20" height="8" rx="2" fill="#8b9eaa" stroke="none" stroke-width="1"/>
+<rect x="1354" y="668" width="20" height="8" rx="2" fill="#8b9eaa" stroke="none" stroke-width="1"/>
+<rect x="646" y="794" width="708" height="11" rx="3" fill="#cbd6dc" stroke="#7f96a2" stroke-width="1.4"/>
+<path d="M649 808 L1350 808" fill="none" stroke="#aabcc7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="626" y="789" width="20" height="8" rx="2" fill="#8b9eaa" stroke="none" stroke-width="1"/>
+<rect x="1354" y="789" width="20" height="8" rx="2" fill="#8b9eaa" stroke="none" stroke-width="1"/>
+<path d="M800 667 Q794 606 852 595 L1059 598 Q1116 608 1124 665 Z" fill="#e6cfb7" stroke="#c19c78" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M836 619 Q851 604 865 620" fill="none" stroke="#c2a07f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M885 619 Q900 604 914 620" fill="none" stroke="#c2a07f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M934 619 Q949 604 963 620" fill="none" stroke="#c2a07f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M983 619 Q998 604 1012 620" fill="none" stroke="#c2a07f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1032 619 Q1047 604 1061 620" fill="none" stroke="#c2a07f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M763 788 Q757 747 792 738 Q824 744 825 788 Z" fill="#d8e1bb" stroke="#a9ba8d" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M856 788 Q850 747 885 738 Q917 744 918 788 Z" fill="#d8e1bb" stroke="#a9ba8d" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M949 788 Q943 747 978 738 Q1010 744 1011 788 Z" fill="#d8e1bb" stroke="#a9ba8d" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1042 788 Q1036 747 1071 738 Q1103 744 1104 788 Z" fill="#d8e1bb" stroke="#a9ba8d" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1135 788 Q1129 747 1164 738 Q1196 744 1197 788 Z" fill="#d8e1bb" stroke="#a9ba8d" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1017 637L1107 612" fill="none" stroke="#79689a" stroke-width="4"/>
+<circle cx="1030" cy="633.0" r="3" fill="#79689a" stroke="none" stroke-width="1"/>
+<circle cx="1051" cy="627.12" r="3" fill="#79689a" stroke="none" stroke-width="1"/>
+<circle cx="1071" cy="621.52" r="3" fill="#79689a" stroke="none" stroke-width="1"/>
+<path d="M1107 612 Q1170 608 1199 548 L1235 502 L1274 502" fill="none" stroke="#79689a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1146" cy="580" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="1158" y="585" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">Tf</text>
+<circle cx="653" cy="528" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="665" y="533" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">T1</text>
+<circle cx="1323" cy="833" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="1335" y="838" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">T2</text>
+<rect x="1288" y="446" width="22" height="35" rx="3" fill="#76968a" stroke="#213b46" stroke-width="1.3"/>
+<path d="M1299 480L1299 496" fill="none" stroke="#428574" stroke-width="3"/>
+<path d="M1282 477 L1316 477 L1309 485 L1289 485 Z" fill="#b5c7bc" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1322" y="465" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#428574" text-anchor="start">O2</text>
+<path d="M1004 433 L1004 392 L865 392 L865 320 L916 320" fill="none" stroke="#328caf" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="891" y="382" width="35" height="18" rx="3" fill="#d8e4e7" stroke="#328caf" stroke-width="1"/>
+<path d="M898 387L919 395" fill="none" stroke="#328caf" stroke-width="2"/>
+<path d="M951 320 L1035 320" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1035 320 L1026.0 315.68 L1026.0 324.32 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1038 433 L1038 407 L1480 407 L1480 339" fill="none" stroke="#328caf" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M626 871L1375 871" fill="none" stroke="#428574" stroke-width="4"/>
+<path d="M1370 871 L1280 871" fill="none" stroke="#428574" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1280 871 L1288.0 874.84 L1288.0 867.16 Z" fill="#428574" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M628 520 L628 871 L971 871 L971 934" fill="none" stroke="#428574" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1280 871 L1040 871 L971 871 L971 933" fill="none" stroke="#428574" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M971 933 L975.8 923.0 L966.2 923.0 Z" fill="#428574" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1325 374 L1458 374 L1458 923 L1080 923 L1080 941" fill="none" stroke="#428574" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="543" y="922" width="911" height="72" rx="4" fill="#edf2f3" stroke="#bac8ce" stroke-width="1.2"/>
+<rect x="613" y="936" width="249" height="46" rx="5" fill="#d5e9ee" stroke="#8dabb7" stroke-width="1.5"/>
+<rect x="902" y="936" width="256" height="46" rx="5" fill="#dce9e3" stroke="#91ada0" stroke-width="1.5"/>
+<text x="736" y="965" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="middle">净水盒 1.2 L</text>
+<text x="1030" y="965" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="middle">废水盒 0.8 L</text>
+<rect x="692" y="985" width="89" height="5" rx="2" fill="#79689a" stroke="none" stroke-width="1"/>
+<circle cx="1140" cy="947" r="8" fill="#428574" stroke="none" stroke-width="1"/>
+<rect x="1245" y="931" width="147" height="55" rx="6" fill="#d9e1e5" stroke="#90a3ad" stroke-width="1.5"/>
+<text x="1318" y="956" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#213b46" text-anchor="middle">316L</text>
+<text x="1318" y="978" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#213b46" text-anchor="middle">蒸汽发生器</text>
+<circle cx="1198" cy="956" r="15" fill="#dbe8ed" stroke="#328caf" stroke-width="2"/>
+<path d="M1195 947L1203 956" fill="none" stroke="#328caf" stroke-width="2"/>
+<path d="M1203 956L1195 965" fill="none" stroke="#328caf" stroke-width="2"/>
+<path d="M866 954 L880 954 L880 990 L1180 990 L1180 956" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1180 956 L1175.68 965.0 L1184.32 965.0 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1215 954 L1244 954" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1244 954 L1236.0 950.16 L1236.0 957.84 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1317 931 L1317 910 L600 910 L600 844" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1317 910 L1400 910 L1400 843" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M600 844 L641 829 L699 829" fill="none" stroke="#328caf" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M699 829 L689.0 824.2 L689.0 833.8 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1400 843 L1358 829 L1302 829" fill="none" stroke="#328caf" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1302 829 L1312.0 833.8 L1312.0 824.2 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="540" y="997" width="918" height="8" rx="0" fill="#9fb4bf" stroke="none" stroke-width="1"/>
+<path d="M525 970 L525 425 L525 395 L846 395 L846 347 L855 347" fill="none" stroke="#328caf" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8"/>
+<path d="M855 347 L846.0 342.68 L846.0 351.32 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="535" y="1039" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">独立冷却空气在干侧流动，末端才与排汽混合</text>
+<path d="M645 1090L1355 1090" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M645 1082L645 1098" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M1355 1082L1355 1098" fill="none" stroke="#687d87" stroke-width="1"/>
+<rect x="865.0" y="1075" width="270" height="30" rx="0" fill="#fafcfc" stroke="none" stroke-width="1"/>
+<text x="1000.0" y="1095" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="middle">烤盘设计包络 430 × 340 mm</text>
+<text x="1001" y="1058" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="middle">A-A  正面横剖 / 门体移除 / 后部风机以虚线投影表示</text>
+<path d="M1521 276L1521 1016" fill="none" stroke="#687d87" stroke-width="1" stroke-dasharray="5 5"/>
+<text x="1529" y="664" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#687d87" text-anchor="start">B</text>
+<text x="1529" y="1011" font-family="Arial,Helvetica,sans-serif" font-size="19" fill="#687d87" text-anchor="start">B</text>
+<circle cx="73" cy="286" r="17" fill="#ffffff" stroke="#c86c3e" stroke-width="1.7"/>
+<text x="73" y="292" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#c86c3e" text-anchor="middle">01</text>
+<text x="102" y="293" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">双侧分层送风</text>
+<text x="102" y="325" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">后部回风，侧腔均压分配；</text>
+<text x="102" y="352" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">渐变孔板把风送到两层食物。</text>
+<circle cx="73" cy="442" r="17" fill="#ffffff" stroke="#c86c3e" stroke-width="1.7"/>
+<text x="73" y="448" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#c86c3e" text-anchor="middle">02</text>
+<text x="102" y="449" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">光滑浅拱与滴水边</text>
+<text x="102" y="481" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">浅拱引导顶部气流；</text>
+<text x="102" y="508" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">两侧集水槽把水带离食物。</text>
+<circle cx="73" cy="598" r="17" fill="#ffffff" stroke="#79689a" stroke-width="1.7"/>
+<text x="73" y="604" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="middle">03</text>
+<text x="102" y="605" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">食品探针＋分区加热</text>
+<text x="102" y="637" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">三点有线探针读取食物温度；</text>
+<text x="102" y="664" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">环形主热源，上下独立补偿。</text>
+<circle cx="73" cy="754" r="17" fill="#ffffff" stroke="#428574" stroke-width="1.7"/>
+<text x="73" y="760" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#428574" text-anchor="middle">04</text>
+<text x="102" y="761" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">坡底、粗滤与短排水</text>
+<text x="102" y="793" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">底盘向前坡 1.5°；R15 圆角；</text>
+<text x="102" y="820" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">排水短管起始内径 12 mm。</text>
+<circle cx="73" cy="910" r="17" fill="#ffffff" stroke="#428574" stroke-width="1.7"/>
+<text x="73" y="916" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#428574" text-anchor="middle">05</text>
+<text x="102" y="917" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">前抽式净水 / 废水盒</text>
+<text x="102" y="949" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">清水不与冷凝废水回流混用；</text>
+<text x="102" y="976" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">净水称重，废水浮子检测。</text>
+<circle cx="1618" cy="286" r="17" fill="#ffffff" stroke="#213b46" stroke-width="1.7"/>
+<text x="1618" y="292" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#213b46" text-anchor="middle">06</text>
+<text x="1647" y="293" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">耐蚀湿腔与可拆内件</text>
+<text x="1647" y="325" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">316L 内胆、集水槽和湿管路；</text>
+<text x="1647" y="352" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">连续焊缝、钝化和圆角便于清洁。</text>
+<circle cx="1618" cy="442" r="17" fill="#ffffff" stroke="#213b46" stroke-width="1.7"/>
+<text x="1618" y="448" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#213b46" text-anchor="middle">07</text>
+<text x="1647" y="449" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">低热损的干侧隔热层</text>
+<text x="1647" y="481" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">20 mm 微孔硅隔热板；</text>
+<text x="1647" y="508" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">金属罩隔离，支点阻断热桥。</text>
+<circle cx="1618" cy="598" r="17" fill="#ffffff" stroke="#428574" stroke-width="1.7"/>
+<text x="1618" y="604" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#428574" text-anchor="middle">08</text>
+<text x="1647" y="605" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">多点腔温与蒸汽感知</text>
+<text x="1647" y="637" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">T1-T4 对比前后 / 上下温差；</text>
+<text x="1647" y="664" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">防滴氧探头反馈水蒸汽状态。</text>
+<circle cx="1618" cy="754" r="17" fill="#ffffff" stroke="#328caf" stroke-width="1.7"/>
+<text x="1618" y="760" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#328caf" text-anchor="middle">09</text>
+<text x="1647" y="761" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">受控排汽与冷凝混合</text>
+<text x="1647" y="793" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">调节阀之外保留常压排放；</text>
+<text x="1647" y="820" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">冷凝件可抽出，液体回废水盒。</text>
+<circle cx="1618" cy="910" r="17" fill="#ffffff" stroke="#328caf" stroke-width="1.7"/>
+<text x="1618" y="916" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#328caf" text-anchor="middle">10</text>
+<text x="1647" y="917" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="start">可维护的独立蒸汽源</text>
+<text x="1647" y="949" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">水垢留在可排空的发生器；</text>
+<text x="1647" y="976" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">温度监测与独立干烧保护。</text>
+<rect x="55" y="1150" width="602" height="140" rx="5" fill="#ffffff" stroke="#c5d0d4" stroke-width="1"/>
+<rect x="55" y="1150" width="5" height="140" rx="2" fill="#c86c3e" stroke="none" stroke-width="1"/>
+<text x="78" y="1184" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" fill="#c86c3e" text-anchor="start">热场闭环</text>
+<text x="78" y="1223" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">T1-T4 + 食品探针 → 主热源 / 上下补偿 / 风机转速</text>
+<text x="78" y="1252" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">读到腔温差，也读到食物中心；按任务调节。</text>
+<rect x="685" y="1150" width="602" height="140" rx="5" fill="#ffffff" stroke="#c5d0d4" stroke-width="1"/>
+<rect x="685" y="1150" width="5" height="140" rx="2" fill="#328caf" stroke="none" stroke-width="1"/>
+<text x="708" y="1184" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" fill="#328caf" text-anchor="start">水汽闭环</text>
+<text x="708" y="1223" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">氧探头 + 腔温 + 门状态 → 供汽 / 排汽 / 转段</text>
+<text x="708" y="1252" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">水蒸汽状态参与蒸转烤判断；残水有明确去处。</text>
+<rect x="1315" y="1150" width="630" height="140" rx="5" fill="#ffffff" stroke="#c5d0d4" stroke-width="1"/>
+<rect x="1315" y="1150" width="5" height="140" rx="2" fill="#428574" stroke="none" stroke-width="1"/>
+<text x="1338" y="1184" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" fill="#428574" text-anchor="start">独立保护链</text>
+<text x="1338" y="1223" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">门开关 / 缺水 / 漏水 / 过温 → 断汽与断热</text>
+<text x="1338" y="1252" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">排汽阀掉电复位；常压通道与硬件温控独立保留。</text>
+<path d="M55 1339L1945 1339" fill="none" stroke="#c5d0d4" stroke-width="1"/>
+<text x="55" y="1373" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="start">M1 / 家用常压蒸烤机工程构想    设计尺寸与材料厚度为开发输入；剖面按功能展开，非加工图。</text>
+<text x="1945" y="1373" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#687d87" text-anchor="end">REV.C  /  1 / 2</text>
+</svg>

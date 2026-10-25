@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="247" viewBox="1270 685 680 247"><rect width="2000" height="1414" fill="#fafcfc"/>
+<text x="55" y="53" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#428574" text-anchor="start">M1 / STEAM + CONVECTION</text>
+<text x="55" y="108" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="39" fill="#213b46" text-anchor="start">结构细节与材料界面</text>
+<text x="55" y="146" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#687d87" text-anchor="start">B-B 侧向纵剖＋门体 / 壁体详图：沿前后方向核对水路、风路、热桥与维护空间。</text>
+<text x="1945" y="56" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#687d87" text-anchor="end">ENGINEERING CONCEPT / 02</text>
+<text x="1945" y="99" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="22" fill="#213b46" text-anchor="end">结构 · 材料 · 信息感知</text>
+<path d="M55 171L1945 171" fill="none" stroke="#213b46" stroke-width="1.5"/>
+<text x="55" y="207" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" fill="#213b46" text-anchor="start">① B-B 侧向纵剖</text>
+<text x="1285" y="207" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="24" fill="#213b46" text-anchor="start">② 门体与壁体的材料设计</text>
+<path d="M1236 226L1236 1043" fill="none" stroke="#c5d0d4" stroke-width="1"/>
+<rect x="240" y="283" width="914" height="722" rx="9" fill="#e5ebee" stroke="#213b46" stroke-width="2"/>
+<rect x="254" y="297" width="885" height="691" rx="5" fill="#ffffff" stroke="#a8b8c1" stroke-width="1"/>
+<path d="M240 251L1154 251" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M240 243L240 259" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M1154 243L1154 259" fill="none" stroke="#687d87" stroke-width="1"/>
+<rect x="562.0" y="236" width="270" height="30" rx="0" fill="#fafcfc" stroke="none" stroke-width="1"/>
+<text x="697.0" y="256" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="middle">整机深度 560 mm</text>
+<path d="M195 283L195 1005" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M187 283L203 283" fill="none" stroke="#687d87" stroke-width="1"/>
+<path d="M187 1005L203 1005" fill="none" stroke="#687d87" stroke-width="1"/>
+<rect x="178" y="599.0" width="34" height="90" rx="0" fill="#fafcfc" stroke="none" stroke-width="1"/>
+<text x="217" y="650.0" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">455 mm</text>
+<rect x="257" y="302" width="222" height="83" rx="4" fill="#e1e9e5" stroke="#b4c7bc" stroke-width="1"/>
+<rect x="266" y="315" width="18" height="54" rx="3" fill="#213b46" stroke="none" stroke-width="1"/>
+<text x="308" y="335" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="start">操作面板</text>
+<text x="308" y="362" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="start">控制板置于冷端</text>
+<path d="M493 296L493 403" fill="none" stroke="#213b46" stroke-width="1.5"/>
+<rect x="619" y="315" width="294" height="70" rx="4" fill="#e3edf0" stroke="#91aebd" stroke-width="1.3"/>
+<path d="M636 322L636 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M649 322L649 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M662 322L662 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M675 322L675 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M688 322L688 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M701 322L701 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M714 322L714 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M727 322L727 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M740 322L740 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M753 322L753 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M766 322L766 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M779 322L779 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M792 322L792 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M805 322L805 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M818 322L818 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M831 322L831 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M844 322L844 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M857 322L857 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M870 322L870 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M883 322L883 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M896 322L896 377" fill="none" stroke="#bfd2dc" stroke-width="1"/>
+<path d="M858 362 L668 362 Q642 362 642 345 Q642 328 668 328 L887 328 L927 328 L927 393 L520 393" fill="none" stroke="#328caf" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="512" y="384" width="35" height="27" rx="3" fill="#d9e8ed" stroke="#328caf" stroke-width="1.2"/>
+<rect x="263" y="388" width="66" height="25" rx="3" fill="#e1edf1" stroke="#328caf" stroke-width="1.2"/>
+<path d="M512 397 L330 397" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M330 397 L339.0 401.32 L339.0 392.68 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M263 400 L225 400" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M225 400 L235.0 404.8 L235.0 395.2 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="989" y="313" width="64" height="57" rx="4" fill="#dce8eb" stroke="#8aa7b4" stroke-width="1.3"/>
+<circle cx="1021" cy="342" r="20" fill="none" stroke="#a5bec8" stroke-width="2"/>
+<path d="M1074 342 L1045 342" fill="none" stroke="#328caf" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 5"/>
+<path d="M1045 342 L1053.0 345.84 L1053.0 338.16 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M989 342 L924 342 L924 378 L350 378 L350 391 L319 391" fill="none" stroke="#328caf" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 6"/>
+<path d="M319 391 L327.0 394.84 L327.0 387.16 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="766" y="305" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="middle">间壁冷凝件 / 湿管独立封闭</text>
+<text x="1055" y="305" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#687d87" text-anchor="end">干侧风机</text>
+<text x="223" y="378" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#328caf" text-anchor="end">定向出口</text>
+<rect x="366" y="420" width="683" height="492" rx="7" fill="#ede5d7" stroke="#c1b29a" stroke-width="1.5"/>
+<path d="M380 422L398 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M404 422L422 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M428 422L446 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M452 422L470 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M476 422L494 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M500 422L518 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M524 422L542 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M548 422L566 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M572 422L590 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M596 422L614 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M620 422L638 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M644 422L662 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M668 422L686 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M692 422L710 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M716 422L734 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M740 422L758 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M764 422L782 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M788 422L806 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M812 422L830 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M836 422L854 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M860 422L878 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M884 422L902 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M908 422L926 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M932 422L950 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M956 422L974 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M980 422L998 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1004 422L1022 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1028 422L1046 443" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 459L1045 476" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 483L1045 500" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 507L1045 524" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 531L1045 548" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 555L1045 572" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 579L1045 596" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 603L1045 620" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 627L1045 644" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 651L1045 668" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 675L1045 692" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 699L1045 716" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 723L1045 740" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 747L1045 764" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 771L1045 788" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 795L1045 812" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 819L1045 836" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 843L1045 860" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 867L1045 884" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<path d="M1024 891L1045 908" fill="none" stroke="#c9b99c" stroke-width="1"/>
+<rect x="389" y="451" width="635" height="438" rx="5" fill="#d2dde2" stroke="#8ba2b0" stroke-width="1.8"/>
+<rect x="408" y="472" width="594" height="395" rx="6" fill="#f6f9fa" stroke="#8ca0ac" stroke-width="1.6"/>
+<rect x="360" y="472" width="50" height="395" rx="0" fill="#f6f9fa" stroke="none" stroke-width="1"/>
+<text x="703" y="508" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="middle">横向浅拱顶沿深度方向延伸</text>
+<rect x="260" y="420" width="99" height="488" rx="5" fill="#c9d5db" stroke="#788f9f" stroke-width="1.5"/>
+<rect x="268" y="442" width="9" height="435" rx="0" fill="#b6d3e0" stroke="#74a4bc" stroke-width="1"/>
+<rect x="297" y="442" width="8" height="435" rx="0" fill="#c2dce4" stroke="#85aabb" stroke-width="1"/>
+<rect x="332" y="442" width="10" height="435" rx="0" fill="#c4e4ee" stroke="#6b9cb3" stroke-width="1"/>
+<rect x="347" y="438" width="15" height="25" rx="3" fill="#91b6a5" stroke="#428574" stroke-width="1"/>
+<rect x="347" y="872" width="15" height="25" rx="3" fill="#91b6a5" stroke="#428574" stroke-width="1"/>
+<circle cx="272" cy="478" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="284" y="483" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">Td</text>
+<path d="M342 875 L362 889 L396 889 L396 940 L611 940" fill="none" stroke="#428574" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="309" y="930" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="middle">三层门体</text>
+<rect x="237" y="495" width="20" height="146" rx="5" fill="#8ca6b2" stroke="none" stroke-width="1"/>
+<path d="M286 865 L286 467 L286 405 L960 405 L960 313 L917 313" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 7"/>
+<path d="M917 313 L926.0 317.32 L926.0 308.68 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="289" y="400" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#328caf" text-anchor="start">门体冷却空气 →</text>
+<rect x="441" y="670" width="526" height="10" rx="3" fill="#ccd9df" stroke="#829aa7" stroke-width="1.2"/>
+<rect x="416" y="667" width="25" height="6" rx="2" fill="#9bafb9" stroke="none" stroke-width="1"/>
+<path d="M967 670 L983 666" fill="none" stroke="#829aa7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="441" y="781" width="526" height="10" rx="3" fill="#ccd9df" stroke="#829aa7" stroke-width="1.2"/>
+<rect x="416" y="778" width="25" height="6" rx="2" fill="#9bafb9" stroke="none" stroke-width="1"/>
+<path d="M967 781 L983 777" fill="none" stroke="#829aa7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M562 666 Q560 611 605 602 L743 607 Q794 620 796 665 Z" fill="#e7d0b5" stroke="#c3a079" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M695 635L780 607" fill="none" stroke="#79689a" stroke-width="3.5"/>
+<path d="M780 607 Q856 588 880 548 L981 548" fill="none" stroke="#79689a" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="801" y="586" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#79689a" text-anchor="start">Tf 食品探针</text>
+<rect x="1006" y="476" width="53" height="389" rx="4" fill="#e5edf1" stroke="#95acb8" stroke-width="1.3"/>
+<rect x="999" y="587" width="9" height="136" rx="2" fill="#9eafb8" stroke="none" stroke-width="1"/>
+<rect x="999" y="595" width="9" height="6" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="999" y="613" width="9" height="6" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="999" y="631" width="9" height="6" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="999" y="649" width="9" height="6" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="999" y="667" width="9" height="6" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="999" y="685" width="9" height="6" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="999" y="703" width="9" height="6" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="1028" y="544" width="17" height="210" rx="4" fill="#9aafb9" stroke="#5f8192" stroke-width="1"/>
+<path d="M1030 552L1044 561" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 572L1044 581" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 592L1044 601" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 612L1044 621" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 632L1044 641" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 652L1044 661" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 672L1044 681" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 692L1044 701" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 712L1044 721" fill="none" stroke="#587b8d" stroke-width="2"/>
+<path d="M1030 732L1044 741" fill="none" stroke="#587b8d" stroke-width="2"/>
+<rect x="1016" y="518" width="29" height="9" rx="4" fill="#c86c3e" stroke="none" stroke-width="1"/>
+<rect x="1016" y="774" width="29" height="9" rx="4" fill="#c86c3e" stroke="none" stroke-width="1"/>
+<path d="M1045 648L1101 648" fill="none" stroke="#213b46" stroke-width="5"/>
+<rect x="1060" y="618" width="23" height="60" rx="0" fill="#ede5d7" stroke="#bea982" stroke-width="1"/>
+<rect x="1094" y="615" width="40" height="66" rx="5" fill="#a6bdc9" stroke="#718f9f" stroke-width="1.2"/>
+<text x="1139" y="614" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#687d87" text-anchor="end">冷端电机</text>
+<path d="M790 640 L987 640 L1018 640" fill="none" stroke="#c86c3e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1018 640 L1007.0 634.72 L1007.0 645.28 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1041 537 L1041 512 L974 512 L974 535 L466 535" fill="none" stroke="#c86c3e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 7"/>
+<path d="M466 535 L476.0 539.8 L476.0 530.2 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1041 773 L1041 824 L974 824 L974 843 L464 843" fill="none" stroke="#c86c3e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 7"/>
+<path d="M464 843 L474.0 847.8 L474.0 838.2 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="681" y="560" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#c86c3e" text-anchor="middle">双侧送风道投影（实际位于左右侧壁）</text>
+<circle cx="486" cy="535" r="5" fill="#c86c3e" stroke="none" stroke-width="1"/>
+<circle cx="590" cy="535" r="5" fill="#c86c3e" stroke="none" stroke-width="1"/>
+<circle cx="814" cy="535" r="5" fill="#c86c3e" stroke="none" stroke-width="1"/>
+<circle cx="921" cy="535" r="5" fill="#c86c3e" stroke="none" stroke-width="1"/>
+<path d="M464 535 L385 535 L369 508 L369 842" fill="none" stroke="#c86c3e" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M369 842 L373.32 833.0 L364.68 833.0 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="384" y="718" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#c86c3e" text-anchor="start">内侧热风</text>
+<text x="384" y="741" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#c86c3e" text-anchor="start">沿玻璃掠流</text>
+<circle cx="430" cy="568" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="442" y="573" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">T1</text>
+<circle cx="971" cy="793" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="983" y="798" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">T2</text>
+<circle cx="971" cy="516" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="983" y="521" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">T3</text>
+<circle cx="430" cy="831" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="442" y="836" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#79689a" text-anchor="start">T4</text>
+<rect x="925" y="469" width="21" height="32" rx="3" fill="#86a99c" stroke="#213b46" stroke-width="1"/>
+<path d="M935 501L935 515" fill="none" stroke="#428574" stroke-width="3"/>
+<path d="M920 500 L949 500 L943 509 L926 509 Z" fill="#b8cdc2" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="908" y="530" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#428574" text-anchor="end">O2 ↓</text>
+<path d="M899 473 L899 402 L858 402 L858 362" fill="none" stroke="#328caf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="879" y="408" width="40" height="23" rx="4" fill="#d7e7ee" stroke="#328caf" stroke-width="1.2"/>
+<path d="M888 413L911 424" fill="none" stroke="#328caf" stroke-width="2"/>
+<path d="M951 473 L951 393 L552 393 L552 414 L316 414 L316 401" fill="none" stroke="#328caf" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1045" y="406" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#328caf" text-anchor="middle">常通常压旁通</text>
+<text x="1045" y="430" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#328caf" text-anchor="middle">无液封 / 阀失电开</text>
+<path d="M408 872L1000 863" fill="none" stroke="#428574" stroke-width="4"/>
+<path d="M966 868 L431 876 L414 890 L414 941 L606 941" fill="none" stroke="#428574" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M606 941 L596.0 936.2 L596.0 945.8 Z" fill="#428574" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="654" y="901" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#428574" text-anchor="middle">坡底 1.5° → 前集水槽 → 粗滤排水</text>
+<rect x="388" y="921" width="352" height="61" rx="5" fill="#e7eef0" stroke="#c5d0d4" stroke-width="1"/>
+<rect x="402" y="934" width="154" height="37" rx="4" fill="#d5e7ef" stroke="#8caabb" stroke-width="1.3"/>
+<rect x="576" y="934" width="149" height="37" rx="4" fill="#d8e8df" stroke="#8bad9a" stroke-width="1.3"/>
+<text x="479" y="959" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#213b46" text-anchor="middle">净水盒</text>
+<text x="651" y="959" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#213b46" text-anchor="middle">废水盒</text>
+<path d="M400 950 L368 950" fill="none" stroke="#687d87" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M368 950 L376.0 953.84 L376.0 946.16 Z" fill="#687d87" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="343" y="978" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#687d87" text-anchor="end">向前抽出</text>
+<rect x="912" y="920" width="136" height="61" rx="5" fill="#d9e4e8" stroke="#91a8b4" stroke-width="1.2"/>
+<text x="980" y="947" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#213b46" text-anchor="middle">蒸汽发生器</text>
+<text x="980" y="968" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#687d87" text-anchor="middle">排空 / 除垢口</text>
+<circle cx="831" cy="952" r="14" fill="#d5e8ee" stroke="#328caf" stroke-width="1.5"/>
+<path d="M557 952 L563 952 L563 977 L810 977 L810 952" fill="none" stroke="#328caf" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M810 952 L806.16 960.0 L813.84 960.0 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M850 952 L912 952" fill="none" stroke="#328caf" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M912 952 L904.0 948.16 L904.0 955.84 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M980 921 L980 909 L428 909 L428 852" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M428 852 L454 831" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M454 831 L445.3636560671538 833.0394027247187 L450.1892850495867 839.0139909886832 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M684 384 L766 384 L766 913 L659 913 L659 933" fill="none" stroke="#428574" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="786" y="915" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="14" fill="#428574" text-anchor="start">冷凝排水（侧面投影）</text>
+<rect x="378" y="987" width="725" height="8" rx="0" fill="#9bb0bc" stroke="none" stroke-width="1"/>
+<circle cx="1088" cy="976" r="8" fill="#79689a" stroke="#ffffff" stroke-width="2"/>
+<text x="1100" y="981" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#79689a" text-anchor="start">漏水</text>
+<text x="247" y="1040" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="start">前 / 操作与取餐</text>
+<text x="1156" y="1040" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="end">后 / 风机与维修</text>
+<text x="702" y="1072" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="middle">B-B 纵剖：湿汽只在湿路与末端混合腔流动，控制板与冷却风机留在干侧。</text>
+<text x="1286" y="248" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" fill="#213b46" text-anchor="start">D1 低膨胀内片＋浮动边框＋冷却层</text>
+<text x="1286" y="277" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">低膨胀内片减小热应力；内侧热风减雾，外侧独立冷却。</text>
+<text x="1292" y="318" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#c86c3e" text-anchor="start">炉腔 / 热侧</text>
+<text x="1945" y="318" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#328caf" text-anchor="end">厨房 / 冷侧</text>
+<rect x="1334" y="344" width="22" height="174" rx="0" fill="#b6d9e8" stroke="#8faab9" stroke-width="1"/>
+<rect x="1363" y="344" width="91" height="174" rx="0" fill="#f2f7f7" stroke="#8faab9" stroke-width="1"/>
+<rect x="1461" y="344" width="17" height="174" rx="0" fill="#b8d5e0" stroke="#8faab9" stroke-width="1"/>
+<rect x="1485" y="344" width="147" height="174" rx="0" fill="#e5f0f3" stroke="#8faab9" stroke-width="1"/>
+<rect x="1639" y="344" width="21" height="174" rx="0" fill="#c8dce6" stroke="#8faab9" stroke-width="1"/>
+<path d="M1314 360 L1314 503" fill="none" stroke="#c86c3e" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1314 503 L1318.32 494.0 L1309.68 494.0 Z" fill="#c86c3e" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1458 345L1458 517" fill="none" stroke="#c86c3e" stroke-width="3"/>
+<path d="M1557 500 L1557 360" fill="none" stroke="#328caf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1557 360 L1552.2 370.0 L1561.8 370.0 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1327 336L1667 336" fill="none" stroke="#c5d0d4" stroke-width="1"/>
+<text x="1300" y="554" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#213b46" text-anchor="start">3.3 mm</text>
+<text x="1295" y="582" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#213b46" text-anchor="start">硼硅内片</text>
+<text x="1386" y="554" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#687d87" text-anchor="start">8 mm</text>
+<text x="1381" y="582" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">静止气层</text>
+<text x="1478" y="554" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#687d87" text-anchor="start">3 mm</text>
+<text x="1455" y="608" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">Low-E 中片</text>
+<text x="1574" y="554" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#328caf" text-anchor="start">12 mm</text>
+<text x="1552" y="582" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#328caf" text-anchor="start">通风气层</text>
+<text x="1690" y="554" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#213b46" text-anchor="start">3.2 mm</text>
+<text x="1686" y="582" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#213b46" text-anchor="start">钢化外片</text>
+<path d="M1710 360 L1919 360 L1919 493 L1742 493" fill="none" stroke="#849aa7" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1754" y="374" width="31" height="20" rx="3" fill="#bfd2c4" stroke="#428574" stroke-width="1"/>
+<rect x="1754" y="458" width="31" height="20" rx="3" fill="#bfd2c4" stroke="#428574" stroke-width="1"/>
+<rect x="1785" y="390" width="17" height="69" rx="0" fill="#bddae6" stroke="#7da4b8" stroke-width="1.2"/>
+<path d="M1816 401L1816 446" fill="none" stroke="#687d87" stroke-width="1"/>
+<text x="1831" y="430" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#687d87" text-anchor="start">弹性垫</text>
+<text x="1721" y="520" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#428574" text-anchor="start">周边浮动；每边 2 mm 间隙起点</text>
+<text x="1286" y="642" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#428574" text-anchor="start">内片参考：BOROFLOAT 33，α = 3.25 × 10^(-6) / K</text>
+<path d="M1286 666L1945 666" fill="none" stroke="#c5d0d4" stroke-width="1"/>
+<text x="1286" y="702" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" fill="#213b46" text-anchor="start">D2 把保温材料留在干燥、隔离的夹层</text>
+<rect x="1315" y="736" width="16" height="133" rx="0" fill="#cad4d9" stroke="#91a6b2" stroke-width="1"/>
+<rect x="1331" y="736" width="196" height="133" rx="0" fill="#ede5d7" stroke="#91a6b2" stroke-width="1"/>
+<rect x="1527" y="736" width="11" height="133" rx="0" fill="#cad4d9" stroke="#91a6b2" stroke-width="1"/>
+<rect x="1538" y="736" width="63" height="133" rx="0" fill="#e5f0f4" stroke="#91a6b2" stroke-width="1"/>
+<rect x="1601" y="736" width="13" height="133" rx="0" fill="#a5b7c4" stroke="#91a6b2" stroke-width="1"/>
+<path d="M1340 738L1364 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1362 738L1386 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1384 738L1408 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1406 738L1430 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1428 738L1452 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1450 738L1474 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1472 738L1496 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1494 738L1518 867" fill="none" stroke="#cebea2" stroke-width="1"/>
+<path d="M1568 856 L1568 752" fill="none" stroke="#328caf" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1568 752 L1563.68 761.0 L1572.32 761.0 Z" fill="#328caf" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1656" y="755" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="start">316L 内胆：0.8-1.0 mm</text>
+<text x="1656" y="789" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="start">微孔硅隔热板：20 mm</text>
+<text x="1656" y="823" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="start">金属隔离罩＋干侧冷却道</text>
+<text x="1656" y="857" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#213b46" text-anchor="start">外壳：0.7 mm 镀铝锌钢板</text>
+<text x="1312" y="902" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#687d87" text-anchor="start">支承点：耐温隔热垫＋错位连接，减少穿透式热桥。</text>
+<text x="1312" y="930" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="17" fill="#428574" text-anchor="start">微孔板参考：λ = 0.023 W/(m·K)，200°C</text>
+<path d="M1286 954L1945 954" fill="none" stroke="#c5d0d4" stroke-width="1"/>
+<text x="1286" y="989" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" fill="#213b46" text-anchor="start">D3 清洁先靠几何，再靠材料和表面</text>
+<text x="1286" y="1022" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">316L 连续焊接后酸洗钝化；湿腔 R15 圆角。</text>
+<text x="1286" y="1050" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="18" fill="#687d87" text-anchor="start">孔板、轨架、粗滤与冷凝件可拆；不用密集蓄热网格。</text>
+<rect x="55" y="1112" width="450" height="115" rx="4" fill="#ffffff" stroke="#c5d0d4" stroke-width="1"/>
+<text x="75" y="1144" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" fill="#328caf" text-anchor="start">01  蒸</text>
+<text x="75" y="1178" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="start">供汽反馈＋低速循环</text>
+<text x="75" y="1205" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="start">保留常压排放，观察食品探针。</text>
+<path d="M509 1170 L530 1170" fill="none" stroke="#687d87" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M530 1170 L524.0 1167.12 L524.0 1172.88 Z" fill="#687d87" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="532" y="1112" width="450" height="115" rx="4" fill="#ffffff" stroke="#c5d0d4" stroke-width="1"/>
+<text x="552" y="1144" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" fill="#328caf" text-anchor="start">02  蒸转烤</text>
+<text x="552" y="1178" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="start">停补汽＋受控排湿</text>
+<text x="552" y="1205" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="start">水蒸汽信号与温升共同判断转段。</text>
+<path d="M986 1170 L1007 1170" fill="none" stroke="#687d87" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1007 1170 L1001.0 1167.12 L1001.0 1172.88 Z" fill="#687d87" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1009" y="1112" width="450" height="115" rx="4" fill="#ffffff" stroke="#c5d0d4" stroke-width="1"/>
+<text x="1029" y="1144" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" fill="#c86c3e" text-anchor="start">03  烤</text>
+<text x="1029" y="1178" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="start">分区加热＋均压送风</text>
+<text x="1029" y="1205" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="start">依据腔温差与食品温度调整。</text>
+<path d="M1463 1170 L1484 1170" fill="none" stroke="#687d87" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1484 1170 L1478.0 1167.12 L1478.0 1172.88 Z" fill="#687d87" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1486" y="1112" width="450" height="115" rx="4" fill="#ffffff" stroke="#c5d0d4" stroke-width="1"/>
+<text x="1506" y="1144" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="23" fill="#428574" text-anchor="start">04  取餐与维护</text>
+<text x="1506" y="1178" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="start">停热断汽＋预排汽</text>
+<text x="1506" y="1205" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="start">提示缓开门、防烫、倒水与拆洗。</text>
+<text x="55" y="1265" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="19" fill="#213b46" text-anchor="start">设计着力点：空气分配改善热场；低膨胀＋浮动安装处理门体应力；重力排水降低清理负担；食品与水汽信号参与控制。</text>
+<text x="55" y="1296" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#687d87" text-anchor="start">技术依据：Outokumpu 不锈钢、SCHOTT 低膨胀玻璃、Promat 微孔保温资料；控湿、均压送风、供排水与排汽公开专利。</text>
+<text x="55" y="1320" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="15" fill="#687d87" text-anchor="start">样机评价：双层上色与中心温度、蒸转烤时间、门面温升、残水质量、清洁用时及异常工况。完整来源与取舍说明见配套工程说明。</text>
+<path d="M55 1339L1945 1339" fill="none" stroke="#c5d0d4" stroke-width="1"/>
+<text x="55" y="1373" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="16" fill="#687d87" text-anchor="start">M1 / 家用常压蒸烤机工程构想    设计尺寸与材料厚度为开发输入；剖面按功能展开，非加工图。</text>
+<text x="1945" y="1373" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#687d87" text-anchor="end">REV.C  /  2 / 2</text>
+</svg>
