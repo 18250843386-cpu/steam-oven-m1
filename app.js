@@ -14,12 +14,12 @@ const journeyData = [
 ];
 
 const products = [
- {id:'midea',brand:'美的',name:'SX5',type:'built',capacity:'55 L',tags:['温湿协同','热风循环'],help:'以温湿控制和热风支持家庭多种蒸烤任务。',limit:'先核对柜体与散热；蒸后余水仍需确认清理路径。',price:'3,920',priceNote:'采集页面标价 · 非补贴价',key:'JDm',url:'https://item.jd.com/100088782955.html',color:'#3c5050'},
- {id:'supor',brand:'苏泊尔',name:'DY78',type:'built',capacity:'60 L',tags:['远红外','陶瓷膜内胆'],help:'大容量与内胆设计面向家庭多份量烹饪。',limit:'大容量不自动保证多层均匀，仍需确认层位和摆盘。',price:'3,459',priceNote:'采集页面标价 · 非补贴价',key:'JDs',url:'https://item.jd.com/100285546212.html',color:'#626b63'},
- {id:'siemens',brand:'西门子',name:'Z3Pro',type:'built',capacity:'CS0T5MAB2W',tags:['触控交互','安装规格明确'],help:'触控与具体安装、电源参数便于按厨房条件选机。',limit:'嵌入安装需要预留柜体开孔、电源及散热空间。',price:'4,692',priceNote:'采集页面标价 · 非补贴价',key:'BSH',url:'https://media3.bsh-group.com/Documents/specsheet/zh-CN/CS0T5MAB2W.pdf',color:'#697778'},
+ {id:'midea',brand:'美的',name:'SX5',type:'built',capacity:'55 L',tags:['温湿协同','热风循环'],help:'以温湿控制和热风支持家庭多种蒸烤任务。',limit:'温湿与热风属于商品功能；双层食品差异和蒸后擦水量仍需按同负载比较。',price:'3,920',priceNote:'采集页面标价 · 非补贴价',key:'JDm',url:'https://item.jd.com/100088782955.html',color:'#3c5050'},
+ {id:'supor',brand:'苏泊尔',name:'ZKQD60-Q-DY78',type:'built',capacity:'60 L',tags:['远红外','陶瓷膜内胆'],help:'大容量与内胆设计面向家庭多份量烹饪。',limit:'60 L提供装载空间；大容量下的多层送风分配是我希望进一步验证的设计情境。',price:'3,459',priceNote:'采集页面标价 · 非补贴价',key:'JDs',url:'https://item.jd.com/100285546212.html',color:'#626b63'},
+ {id:'siemens',brand:'西门子',name:'CS0T5MAB2W',type:'built',capacity:'45 L',tags:['35–110°C 蒸汽参照','16 A 电源'],help:'官方规格明确45 L、1.2 L水箱与2900 W输入，可作为嵌入安装和蒸汽任务参照。',limit:'官方温区为35–110°C；高温烘烤选型须另看对应烤箱型号。',price:'4,692',priceNote:'采集页面标价 · 非补贴价',key:'BSH',url:'https://media3.bsh-group.com/Documents/specsheet/zh-CN/CS0T5MAB2W.pdf',color:'#697778'},
  {id:'panasonic',brand:'松下',name:'NU-SC211W',type:'counter',capacity:'22 L',tags:['小份量家庭','台面蒸烤'],help:'以台式机提供蒸烤功能，适合小份量家庭的使用路线。',limit:'大餐盘、多道菜及另需微波时，要计算总设备空间。',price:null,priceNote:'小份量家庭场景',key:'PANm',url:'https://home.panasonic.cn/support/attachments/auld/manual/NU-SC211W.pdf',color:'#c4ccc3'},
- {id:'fotile',brand:'方太',name:'A1.i',type:'counter',capacity:'32 L',tags:['语音入口','任务反馈'],help:'语音入口为用户减少寻找菜单的步骤提供另一条路线。',limit:'语音仍需可靠的屏幕反馈，以及可直接操作的停止入口。',price:null,priceNote:'台式产品路线',key:'FOT',url:'https://hsadmin.fotile.com/h5happylife/video/detail.html?id=17811',color:'#78918c'},
- {id:'toshiba',brand:'东芝',name:'YD95',type:'counter',capacity:'含微波',tags:['弧形顶','微蒸烤复合'],help:'弧形顶与微蒸烤模式为复合烹饪和腔体设计提供参照。',limit:'外形仍需散热空间；微波模式要正确选择兼容器皿。',price:null,priceNote:'台式产品路线',key:'TOSH',url:'https://dsdcp.smartmidea.net/mcsp/prod/20240910/583fba8d40864b7cb752e348aa89f042.pdf',color:'#5a6665'}
+ {id:'fotile',brand:'方太',name:'YZK32-01-A1.i',type:'counter',capacity:'32 L',tags:['语音入口','任务反馈'],help:'语音入口为用户减少寻找菜单的步骤提供另一条路线。',limit:'语音提供另一入口；噪声或识别失败时，触屏确认和实体停止仍需便于操作。',price:null,priceNote:'台式产品路线',key:'FOT',url:'https://hsadmin.fotile.com/h5happylife/video/detail.html?id=17811',color:'#78918c'},
+ {id:'toshiba',brand:'东芝',name:'ER-YD95CNW',type:'counter',capacity:'含微波',tags:['弧形顶','微蒸烤复合'],help:'弧形顶与微蒸烤模式为复合烹饪和腔体设计提供参照。',limit:'外形仍需散热空间；微波模式要正确选择兼容器皿。',price:null,priceNote:'台式产品路线',key:'TOSH',url:'https://dsdcp.smartmidea.net/mcsp/prod/20240910/583fba8d40864b7cb752e348aa89f042.pdf',color:'#5a6665'}
 ];
 
 const patents = [
@@ -35,7 +35,7 @@ const phases = {
  steam:{name:'蒸',en:'STEAM / RETAIN',title:'供汽与保湿，保留必要排放。',desc:'按任务供汽并控制腔温；维持正常排放。水位和门状态提供过程反馈。',states:['供汽：按任务','循环：保持','排汽：正常排放'],screen:'蒸制进行中'},
  transition:{name:'蒸转烤',en:'TRANSITION / EXHAUST',title:'停止补汽，再有控制地排出余汽。',desc:'供汽、热源和循环风机一起调整；通过受控路径排湿，将冷凝液送入收集路径。',states:['供汽：停止','热风：调整','排汽：受控开启'],screen:'正在切换至烤'},
  bake:{name:'烤',en:'BAKE / CIRCULATE',title:'围绕食物需要组织热风与排湿。',desc:'按任务与温差反馈调节热源和循环。排汽并非长期全开，避免无效带走热量。',states:['供汽：停止','循环：烘烤任务','排汽：按需'],screen:'烘烤进行中'},
- serve:{name:'取餐前',en:'SERVE / RELEASE',title:'先组织余汽排放，再提示取餐。',desc:'停止或降低热源，组织余汽排放，并提示门体和器皿仍然高温；随后引导清理残水。',states:['热源：停止 / 降低','余汽：排出','反馈：取餐与维护'],screen:'取餐前排汽提示'}
+ serve:{name:'取餐前',en:'SERVE / RELEASE',title:'先组织余汽排放，再提示取餐。',desc:'停止供汽和加热，组织余汽排放，并提示门体和器皿仍然高温；随后引导清理残水。',states:['热源：停止','余汽：排出','反馈：取餐与维护'],screen:'取餐前排汽提示'}
 };
 
 function renderHero(){ $('#hero-oven').innerHTML=`<img class="m1-hero-img" src="assets/m1-front.svg?v=6" alt="M1工程横剖：均压送风、双层装载、浅拱顶、独立水盒及干湿分路"><div class="hero-facts"><span><b>595 × 560 × 455</b> mm 设计外形</span><span><b>430 × 340</b> mm 烤盘目标</span></div>`; }
@@ -58,7 +58,7 @@ function renderJourney(){
 let productFilter='all', selectedProducts=[];
 function renderProducts(){
  const filtered=products.filter(p=>productFilter==='all'||p.type===productFilter);
- $('#product-grid').innerHTML=filtered.map(p=>`<article class="product-card"><div class="product-top"><div><div class="product-type">${p.type==='built'?'嵌入式':'台式'} / ${p.capacity}</div><div class="product-brand">${p.brand}</div><h3>${p.name}</h3></div>${ovenThumb(p.color,p.type==='counter')}</div><div class="product-tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div><p class="product-insight"><strong>它帮助了什么</strong>${p.help}</p><p class="product-limit"><strong>仍需处理的事</strong>${p.limit}</p><div class="product-bottom"><div class="product-price">${p.price?`¥ <b>${p.price}</b><small>2026.10.11 页面标价</small>`:`<span class="product-scene">${p.type==='built'?'厨房嵌入':'台面使用'}</span>`}</div><button class="compare-toggle ${selectedProducts.includes(p.id)?'active':''}" data-compare="${p.id}" aria-pressed="${selectedProducts.includes(p.id)}" aria-label="${selectedProducts.includes(p.id)?'取消':'加入'}${p.brand} ${p.name}对比">${selectedProducts.includes(p.id)?'已选 ✓':'对比 ＋'}</button></div><a class="product-source" href="${p.url}" target="_blank" rel="noopener">${p.key==='JDm'||p.key==='JDs'?'京东归档页':'官方资料'} ↗</a></article>`).join('');
+ $('#product-grid').innerHTML=filtered.map(p=>`<article class="product-card"><div class="product-top"><div><div class="product-type">${p.type==='built'?'嵌入式':'台式'} / ${p.capacity}</div><div class="product-brand">${p.brand}</div><h3>${p.name}</h3></div>${ovenThumb(p.color,p.type==='counter')}</div><div class="product-tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div><p class="product-insight"><strong>它帮助了什么</strong>${p.help}</p><p class="product-limit"><strong>使用条件与设计关注</strong>${p.limit}</p><div class="product-bottom"><div class="product-price">${p.price?`¥ <b>${p.price}</b><small>2026.10.11 页面标价</small>`:`<span class="product-scene">${p.type==='built'?'厨房嵌入':'台面使用'}</span>`}</div><button class="compare-toggle ${selectedProducts.includes(p.id)?'active':''}" data-compare="${p.id}" aria-pressed="${selectedProducts.includes(p.id)}" aria-label="${selectedProducts.includes(p.id)?'取消':'加入'}${p.brand} ${p.name}对比">${selectedProducts.includes(p.id)?'已选 ✓':'对比 ＋'}</button></div><a class="product-source" href="${p.url}" target="_blank" rel="noopener">${p.key==='JDm'||p.key==='JDs'?'京东归档页':'官方资料'} ↗</a></article>`).join('');
  renderComparison();
 }
 function renderComparison(){
@@ -123,40 +123,66 @@ function renderPaths(){
  <path d="M706 305H661Q642 274 602 274H288M706 382H662Q650 430 601 430H289M291 350H679" class="mode-flow mode-heat" data-flow="heat" marker-end="url(#mode-arrow-heat)"/>
  <path d="M696 450L252 464V475H494V485M344 185V223H230V475H494" class="mode-pipe mode-drain-base"/>
  <path d="M696 450L252 464V475H494V485M344 185V223H230V475H494" class="mode-flow mode-drain" data-flow="drain" marker-end="url(#mode-arrow-exhaust)"/>
- <text x="469" y="571" text-anchor="middle" class="mode-caption">蓝：供汽　橙：循环热风　绿：排汽 / 凝水　灰：未启用路径</text>
+ <text x="469" y="571" text-anchor="middle" class="mode-caption">蓝：水 / 供汽　橙：循环热风　绿虚线：排汽　绿实线：凝水</text>
  </svg>
  <div class="mode-readings" aria-label="当前阶段部件状态">${['供汽','热源','排汽','凝水'].map((label,i)=>`<div><span class="mode-key mode-key-${i}"></span><span>${label}</span><b id="mode-state-${i}"></b></div>`).join('')}</div>
- <div class="path-readable"><span>蒸汽：净水盒 → 外置发生器 → 炉腔入口</span><span>热风：后部回风 → 环形热源 → 双侧均压送风</span><span>排湿：调节阀 → 间壁冷凝 → 气液分离 → 末端出口</span><span>凝水：门槽、坡底与冷凝件 → 独立废水盒</span></div>`;
+ <div class="path-readable"><span>供水与供汽：净水盒 → 外置发生器；水汽从发生器进入炉腔</span><span>热风：后部回风 → 环形热源 → 双侧均压送风</span><span>排湿：调节阀 → 间壁冷凝 → 气液分离 → 与冷却干风汇合 → 出口</span><span>凝水：门槽、坡底与冷凝件 → 独立废水盒</span></div>`;
 }
 
-let currentPhase='steam';
+// A single task state owns the selected task, saved inputs, stage and interlocks.
+const taskState={step:0,task:'蒸',phase:'steam',fault:null,resumePhase:null,stopped:false,
+ params:{food:'面点',quantity:'2 人份',vessel:'金属烤盘（仅蒸烤）',layer:'双层',steamTemp:'100',steamTime:'20',bakeTemp:'180',bakeTime:'20',end:'计时结束',probeLayer:'上层食品',probeTarget:''},checks:{water:false,wipe:false}};
 function setPhase(phase){
  if(!phases[phase])return;
- currentPhase=phase;const p=phases[phase],v=modeVisuals[phase];$('#path-visual').dataset.phase=phase;
+ taskState.phase=phase;
+ const p=phases[phase],v=modeVisuals[phase];$('#path-visual').dataset.phase=phase;
  $('#mode-badge').textContent=`${p.name} / ${v.label}`;$('#mode-hint').textContent=v.hint;
  $('#mode-diagram-title').textContent=`M1 ${p.name}路径示意`;$('#mode-diagram-desc').textContent=v.hint;
  $$('[data-flow]',$('#path-visual')).forEach(el=>{el.dataset.state=v[el.dataset.flow];});
  $('#mode-valve').setAttribute('transform',`rotate(${v.valve} 649 159)`);$('#mode-valve-label').textContent=v.valveText;
  v.states.forEach((s,i)=>{$(`#mode-state-${i}`).textContent=s;});
- const tab=$(`[data-phase="${phase}"]`,$('#phase-tabs'));selectInGroup($('#phase-tabs'),tab);
+ selectInGroup($('#phase-tabs'),$(`[data-phase="${phase}"]`,$('#phase-tabs')));
+ $$('button',$('#phase-tabs')).forEach(b=>{b.disabled=taskState.step>=2;});
+ $('#phase-lock').textContent=taskState.step>=2?'运行阶段由右侧任务推进；取餐与维护完成后可重新选择。':'下方按钮预览部件状态；右侧可体验完整任务。';
  $('#phase-detail').innerHTML=`<div class="phase-title"><h4>${p.title}</h4><span>${p.en}</span></div><p class="phase-description">${p.desc}</p><div class="phase-states">${p.states.map(s=>`<span>${s}</span>`).join('')}</div>`;
  renderInterface();
 }
-
-let uiStep=0, uiTask='蒸', uiQuantity='2 人份', uiVessel='金属烤盘（仅蒸烤）', uiLayer='中层';
+function taskStartPhase(){return taskState.task==='烤'?'bake':'steam';}
+function previewTask(task){taskState.task=task;setPhase(task==='烤'?'bake':'steam');}
 function renderInterface(){
- const screen=$('#device-screen');
- const next=(text='下一步')=>`<button class="screen-next" data-ui="next">${text} →</button>`;
- const back='<button class="screen-back" data-ui="back">返回</button>';
- const heads=['今天想做什么？','确认烹饪条件','当前任务正在进行','准备安全取餐','让机器回到干净状态'];
- let inner=`<div class="screen-step">STEP 0${uiStep+1} / 05</div><h4>${heads[uiStep]}</h4>`;
- if(uiStep===0){inner+=`<div class="task-options">${['蒸','烤','蒸转烤'].map(t=>`<button data-task="${t}" class="${uiTask===t?'selected':''}" aria-pressed="${uiTask===t}"><span>${t}</span><small>${t==='蒸'?'保湿烹饪':t==='烤'?'热风烘烤':'分阶段完成'}</small></button>`).join('')}</div><div class="screen-actions">${next('确认任务')}</div>`;}
- if(uiStep===1){inner+=`<div class="screen-field"><label for="ui-quantity">份量</label><select id="ui-quantity">${['1 人份','2 人份','3–4 人份'].map(v=>`<option ${v===uiQuantity?'selected':''}>${v}</option>`).join('')}</select></div><div class="screen-field"><label for="ui-vessel">器皿</label><select id="ui-vessel">${['金属烤盘（仅蒸烤）','耐热玻璃（依手册）'].map(v=>`<option ${v===uiVessel?'selected':''}>${v}</option>`).join('')}</select></div><div class="screen-field"><label for="ui-layer">层位</label><select id="ui-layer">${['中层','上层','下层'].map(v=>`<option ${v===uiLayer?'selected':''}>${v}</option>`).join('')}</select></div><p class="screen-note">${uiTask} · 请确认水位、器皿耐温与放置间隙。确认后进入运行演示。</p><div class="screen-actions">${back}${next('开始演示')}</div>`;}
- if(uiStep===2){const action=uiTask==='蒸转烤'&&currentPhase==='steam'?'演示开始排湿':uiTask==='蒸转烤'&&currentPhase==='transition'?'演示进入烘烤':'演示进入取餐';inner+=`<div class="screen-stage"><span class="pulse-dot"></span><span><b>${phases[currentPhase].screen}</b><small>${uiTask} · ${uiQuantity} · ${uiLayer}</small></span></div><p>左侧示意图同步显示当前路径。食品温度与腔温分开读取，实际转段由过程反馈决定。</p><div class="screen-actions">${next(action)}</div><button class="screen-stop" data-ui="stop">停止 / 返回任务</button>`;}
- if(uiStep===3){inner+=`<div class="screen-success">↗</div><p class="screen-note">取餐前应完成设计规定的排汽步骤。门体和器皿仍可能高温，请使用隔热手套。</p><p style="margin-top:12px">请缓慢开门，并避开前上方排汽口。</p><div class="screen-actions">${back}${next('查看维护')}</div>`;}
- if(uiStep===4){inner+=`<label class="screen-check"><input type="checkbox" id="water-done"> 倒空并复位接水盒</label><label class="screen-check"><input type="checkbox" id="wipe-done"> 按说明擦拭并干燥炉腔</label><p style="margin-top:10px">等待设备冷却后，再进行拆洗。</p><div class="screen-actions">${back}<button class="screen-next" data-ui="finish">完成本次任务 ✓</button></div>`;}
+ const s=taskState,p=s.params,screen=$('#device-screen');
+ const next=(label='下一步')=>`<button class="screen-next" data-ui="next">${label} →</button>`;
+ const select=(key,label,choices)=>`<div class="screen-field"><label for="ui-${key}">${label}</label><select id="ui-${key}" data-param="${key}">${choices.map(v=>`<option ${v===p[key]?'selected':''}>${esc(v)}</option>`).join('')}</select></div>`;
+ const number=(key,label,min,max)=>`<div class="screen-field"><label for="ui-${key}">${label}</label><input id="ui-${key}" data-param="${key}" type="number" min="${min}" max="${max}" step="1" value="${esc(p[key])}" inputmode="numeric"></div>`;
+ const heads=['今天想做什么','确认烹饪条件','当前任务正在进行','先排汽 再取餐','完成餐后维护'];
+ let inner=`<div class="screen-step">STEP 0${s.step+1} / 05 · 流程演示</div><h4>${heads[s.step]}</h4>`;
+ if(s.step===0){inner+=`<div class="task-options">${['蒸','烤','蒸转烤'].map(t=>`<button data-task="${t}" class="${s.task===t?'selected':''}" aria-pressed="${s.task===t}"><span>${t}</span><small>${t==='蒸'?'供汽保湿':t==='烤'?'循环热风':'先蒸 → 排湿 → 烤'}</small></button>`).join('')}</div><p class="screen-note">双层装载时，探针只代表插入的那份食品。</p><div class="screen-actions">${next('确认任务')}</div>`;}
+ if(s.step===1){inner+=`<form id="task-form"><div class="screen-form-grid">${select('food','食品类别',['面点','蔬菜','肉类','其他'])}${select('quantity','份量',['1 人份','2 人份','3–4 人份'])}${select('layer','装载层位',['双层','上层','下层'])}${select('vessel','器皿',['金属烤盘（仅蒸烤）','耐热玻璃（依手册）'])}</div><div class="screen-form-grid">${s.task!=='烤'?number('steamTemp','蒸温设定 / °C',80,100)+number('steamTime','蒸制时间 / min',1,180):''}${s.task!=='蒸'?number('bakeTemp','烤温设定 / °C',80,250)+number('bakeTime','烘烤时间 / min',1,180):''}</div>${select('end','烹饪终点',['计时结束','探针温度终点'])}<div class="screen-form-grid" id="probe-fields" ${p.end==='计时结束'?'hidden':''}>${select('probeLayer','探针归属',['上层食品','下层食品'])}${number('probeTarget','中心温度 / °C',30,100)}</div><p class="screen-note">数值是演示设定，需按食材及食谱调整。转烤先排湿再升温；不由此预测熟度。</p><div class="screen-actions"><button type="button" class="screen-back" data-ui="back">返回</button><button type="submit" class="screen-next">开始演示 →</button></div></form>`;}
+ if(s.step===2){
+  const action=s.task==='蒸转烤'&&s.phase==='steam'?'演示开始排湿':s.task==='蒸转烤'&&s.phase==='transition'?'演示进入烘烤':'演示结束烹饪';
+  if(s.fault){inner+=`<div class="screen-fault" role="alert"><b>${esc(s.fault)} · 已暂停热源与供汽</b><p>${s.fault==='缺水'?'先停止发生器加热，再按提示补水和复位。':s.fault==='废水盒满'?'保持无液封排放；待可安全操作后倒空并复位废水盒。':'门未关好时停止加热和供汽；关门并确认后恢复。'}</p></div><div class="screen-actions"><button class="screen-next" data-ui="resume">演示处理完成并恢复 →</button></div>`;}
+  else inner+=`<div class="screen-stage"><span class="pulse-dot"></span><span><b>${phases[s.phase].screen}</b><small>${s.task} · ${p.food} · ${p.quantity} · ${p.layer}</small></span></div><div class="setting-summary"><b>已确认的设定值</b><span>${esc(p.vessel)}</span><span>${s.task!=='烤'?`蒸 ${p.steamTemp}°C / ${p.steamTime} min`:''}${s.task==='蒸转烤'?' → ':''}${s.task!=='蒸'?`烤 ${p.bakeTemp}°C / ${p.bakeTime} min`:''}</span><span>${p.end==='计时结束'?'按各阶段设定时间结束烹饪':`${p.probeLayer}中心温度目标 ${p.probeTarget}°C`}</span></div><p class="screen-note">这里只演示控制顺序。排湿完成应由标定后的水汽信号与最长时限共同判断。</p><div class="screen-actions">${next(action)}</div><details class="fault-demo"><summary>体验异常处理</summary><div>${['缺水','废水盒满','门未关好'].map(f=>`<button data-fault="${f}">${f}</button>`).join('')}</div></details>`;
+  inner+='<button class="screen-stop" data-ui="stop">停止任务并进入排汽</button>';
+ }
+ if(s.step===3){inner+=`<div class="screen-success">↗</div><p class="screen-note">${s.stopped?'任务已停止。':''}供汽与加热关闭，循环辅助排出余汽。提示取餐后仍需缓慢开门，避开排汽口并使用隔热手套。</p><p class="screen-note">演示按钮表示排汽步骤完成；真实设备需按传感反馈与时间保护判断。</p><div class="screen-actions">${next('演示排汽完成 查看维护')}</div>`;}
+ if(s.step===4){inner+=`<label class="screen-check"><input type="checkbox" data-check="water" ${s.checks.water?'checked':''}> 倒空并复位废水盒</label><label class="screen-check"><input type="checkbox" data-check="wipe" ${s.checks.wipe?'checked':''}> 冷却后擦拭并干燥炉腔</label><p class="screen-note">轨架、孔板与冷凝件按说明拆洗。先完成维护，再开始下一餐。</p><div class="screen-actions"><button class="screen-back" data-ui="back">查看取餐提示</button><button class="screen-next" data-ui="finish">完成本次任务 ✓</button></div>`;}
  screen.innerHTML=inner;
- $('#interface-progress').innerHTML=['任务','确认','运行','取餐','维护'].map((s,i)=>`${i?'<i></i>':''}<span class="${i===uiStep?'active':''}">${s}</span>`).join('');
+ $('#interface-progress').innerHTML=['任务','确认','运行','取餐','维护'].map((label,i)=>`${i?'<i></i>':''}<span class="${i===s.step?'active':''}">${label}</span>`).join('');
+}
+
+function startTask(){
+ const p=taskState.params,form=$('#task-form');if(!form.reportValidity())return;
+ const required=taskState.task==='蒸'?['steamTemp','steamTime']:taskState.task==='烤'?['bakeTemp','bakeTime']:['steamTemp','steamTime','bakeTemp','bakeTime'];
+ if(p.end==='探针温度终点')required.push('probeTarget');
+ if(required.some(k=>p[k]===''||!Number.isFinite(Number(p[k])))){toast('请填写所需的温度与时间。');return;}
+ if(p.end==='探针温度终点'&&((p.layer==='上层'&&p.probeLayer==='下层食品')||(p.layer==='下层'&&p.probeLayer==='上层食品'))){toast('探针归属应与实际装载层位一致。');return;}
+ taskState.step=2;taskState.stopped=false;taskState.fault=null;setPhase(taskStartPhase());
+}
+function advanceTask(){
+ const s=taskState;
+ if(s.step===0){s.step=1;renderInterface();return;}
+ if(s.step===2&&!s.fault){if(s.task==='蒸转烤'&&s.phase==='steam')setPhase('transition');else if(s.task==='蒸转烤'&&s.phase==='transition')setPhase('bake');else{s.step=3;setPhase('serve');}return;}
+ if(s.step===3){s.step=4;renderInterface();}
 }
 
 function toast(text){const box=$('#toast');box.textContent=text;box.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>{box.hidden=true;},3500);}
@@ -179,29 +205,29 @@ $('#product-grid').addEventListener('click',e=>{const b=e.target.closest('[data-
 $('#clear-compare').addEventListener('click',()=>{selectedProducts=[];renderProducts();});
 $('#patent-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-patent]');if(!b)return;patentIndex=+b.dataset.patent;renderPatent();});
 $$('[data-hero-view]').forEach(b=>b.addEventListener('click',()=>{selectInGroup(b.parentElement,b);$('#hero-oven').classList.toggle('shell-view',b.dataset.heroView==='shell');}));
-$('#phase-tabs').addEventListener('click',e=>{const b=e.target.closest('button[data-phase]');if(!b)return;const phase=b.dataset.phase;if(uiStep<2&&phase!=='serve')uiTask=phase==='steam'?'蒸':phase==='bake'?'烤':'蒸转烤';setPhase(phase);});
+$('#phase-tabs').addEventListener('click',e=>{const b=e.target.closest('button[data-phase]');if(!b||taskState.step>=2)return;const phase=b.dataset.phase;if(phase!=='serve')taskState.task=phase==='steam'?'蒸':phase==='bake'?'烤':'蒸转烤';setPhase(phase);});
 $('#toggle-labels').addEventListener('click',e=>{const hidden=$('#path-visual').classList.toggle('hide-labels');e.currentTarget.textContent=`路径说明 ${hidden?'关':'开'}`;e.currentTarget.setAttribute('aria-pressed',String(!hidden));});
+$('#device-screen').addEventListener('input',e=>{const k=e.target.dataset.param;if(k)taskState.params[k]=e.target.value;});
+$('#device-screen').addEventListener('change',e=>{const k=e.target.dataset.param;if(k){taskState.params[k]=e.target.value;if(k==='end')$('#probe-fields').hidden=e.target.value==='计时结束';}const c=e.target.dataset.check;if(c)taskState.checks[c]=e.target.checked;});
+$('#device-screen').addEventListener('submit',e=>{e.preventDefault();startTask();});
 $('#device-screen').addEventListener('click',e=>{
- const task=e.target.closest('[data-task]');
- if(task){uiTask=task.dataset.task;setPhase(uiTask==='蒸'?'steam':uiTask==='烤'?'bake':'transition');return;}
+ const task=e.target.closest('[data-task]');if(task&&taskState.step===0){previewTask(task.dataset.task);return;}
+ const f=e.target.closest('[data-fault]');if(f&&taskState.step===2&&!taskState.fault){taskState.resumePhase=taskState.phase;taskState.fault=f.dataset.fault;setPhase('serve');return;}
  const b=e.target.closest('[data-ui]');if(!b)return;const act=b.dataset.ui;
- if(act==='next'){
-  if(uiStep===1){uiQuantity=$('#ui-quantity').value;uiVessel=$('#ui-vessel').value;uiLayer=$('#ui-layer').value;setPhase(uiTask==='烤'?'bake':'steam');}
-  else if(uiStep===2&&uiTask==='蒸转烤'&&currentPhase==='steam'){setPhase('transition');return;}
-  else if(uiStep===2&&uiTask==='蒸转烤'&&currentPhase==='transition'){setPhase('bake');return;}
-  uiStep=Math.min(4,uiStep+1);if(uiStep===3)setPhase('serve');
- }else if(act==='back'){
-  uiStep=Math.max(0,uiStep-1);
-  if(uiStep===2)setPhase(uiTask==='烤'||uiTask==='蒸转烤'?'bake':'steam');
-  if(uiStep===0)setPhase(uiTask==='蒸'?'steam':uiTask==='烤'?'bake':'transition');
- }else if(act==='stop'){
-  uiStep=0;setPhase('serve');toast('演示已停止：供汽与加热关闭，示意余汽排放。');
- }else if(act==='finish'){
-  if(!$('#water-done').checked||!$('#wipe-done').checked){toast('请先确认接水盒与炉腔的维护步骤。');return;}
-  uiStep=0;uiTask='蒸';setPhase('steam');toast('本次交互演示完成，已返回任务预览。');
- }
- renderInterface();
+ if(act==='next')advanceTask();
+ else if(act==='back'){if(taskState.step===1){taskState.step=0;setPhase(taskStartPhase());}else if(taskState.step===4){taskState.step=3;renderInterface();}}
+ else if(act==='resume'&&taskState.fault){taskState.fault=null;setPhase(taskState.resumePhase);}
+ else if(act==='stop'){taskState.step=3;taskState.fault=null;taskState.stopped=true;setPhase('serve');toast('供汽与加热已停止，进入取餐前排汽演示。');}
+ else if(act==='finish'){if(!taskState.checks.water||!taskState.checks.wipe){toast('请确认废水盒与炉腔维护已完成。');return;}taskState.step=0;taskState.checks={water:false,wipe:false};taskState.stopped=false;setPhase(taskStartPhase());toast('本次流程完成，已返回任务预览。');}
 });
+$('#zoom-mode').addEventListener('click',()=>{
+ const container=$('#mode-dialog-content');container.innerHTML='';const copy=$('.mode-diagram').cloneNode(true);
+ copy.querySelectorAll('[id]').forEach(el=>{const old=el.id;el.id='zoom-'+old;copy.querySelectorAll('[marker-end]').forEach(p=>{if(p.getAttribute('marker-end')===`url(#${old})`)p.setAttribute('marker-end',`url(#zoom-${old})`);});});
+ copy.setAttribute('aria-labelledby','zoom-mode-diagram-title zoom-mode-diagram-desc');container.dataset.phase=taskState.phase;container.append(copy);
+ $('#mode-dialog-title').textContent=`${phases[taskState.phase].name} · 部件与路径放大图`;$('#mode-dialog').showModal();
+});
+$('#close-mode-dialog').addEventListener('click',()=>$('#mode-dialog').close());
+$('#mode-dialog').addEventListener('click',e=>{if(e.target===$('#mode-dialog'))$('#mode-dialog').close();});
 $('#source-filters').addEventListener('click',e=>{const b=e.target.closest('[data-type]');if(!b)return;sourceType=b.dataset.type;selectInGroup($('#source-filters'),b);renderReferences();});
 $('#source-search').addEventListener('input',e=>{sourceQuery=e.target.value.trim().toLowerCase();renderReferences();});
 $('#expand-sources').addEventListener('click',()=>{sourcesExpanded=!sourcesExpanded;renderReferences();});
